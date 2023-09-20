@@ -1,0 +1,40 @@
+---
+title: "Next Steps"
+description: "Some logical next steps and resources to further explore."
+author: "Barrie Robison"
+date: "2023-09-20"
+categories: [reference material, additional resources]
+image: "abstractcomputevision2.png"
+---
+
+
+## Logical Next Steps:
+
+1. **Deep Dive Learning:**
+   - **Online Courses:** Recommend beginner-friendly online courses. Platforms like Coursera, edX, and Udacity offer comprehensive courses on AI and computer vision.
+   - **Books:** Share a list of introductory books on AI and computer vision. For instance, "Deep Learning" by Ian Goodfellow, Yoshua Bengio, and Aaron Courville is an excellent resource.
+
+2. **Hands-on Experience:**
+   - **Experiment with Platforms:** Encourage participants to try platforms like Google's Teachable Machine, which offers a no-code introduction to machine learning and computer vision.
+   - **Workshops:** Organize or recommend follow-up hands-on workshops where participants can get practical experience with computer vision tools and applications.
+
+3. **Networking:**
+   - **Join Relevant Groups:** Recommend local or online AI/Computer Vision communities, like Meetup groups or online forums, where they can discuss and share insights.
+   - **Attend Conferences:** While your symposium is a starting point, there are many AI and computer vision-focused conferences that can provide deeper insights and networking opportunities.
+
+4. **Research Collaborations:**
+   - **Interdisciplinary Collaborations:** Encourage participants to explore collaborations within their institutions. Computer vision can be a tool for many fields, and interdisciplinary projects can yield fascinating results.
+   - **Reach out to Experts:** If participants have specific queries or projects in mind, they could reach out to computer vision experts for guidance or collaboration.
+
+5. **Stay Updated:**
+   - **Newsletters and Blogs:** Recommend popular AI and computer vision newsletters or blogs that provide updates on the latest research, tools, and trends.
+   - **Research Papers:** Platforms like arXiv.org can be a source of the latest research papers, though it might be advanced for some participants.
+
+6. **Ethical Considerations:**
+   - **Workshops on AI Ethics:** Suggest attending workshops or courses that specifically deal with the ethics of AI, to understand potential biases, privacy concerns, and other ethical issues.
+   - **Guidelines and Standards:** Familiarize them with any existing guidelines or standards in the field of AI and computer vision ethics.
+
+7. **Experiment with Tools and Libraries:**
+   - **Python Libraries:** Introduce libraries like OpenCV, TensorFlow, and PyTorch as tools they can experiment with once they're more comfortable with the basics.
+
+Remember, the aim is to empower participants to continue their journey in understanding and possibly integrating computer vision into their research. By providing clear takeaways and next steps, you're giving them the tools and direction to do so.

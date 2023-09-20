@@ -1,0 +1,28 @@
+---
+title: "Computer Vision Primer"
+listing:
+  contents: posts
+  sort: "date desc"
+  type: default
+  categories: true
+  sort-ui: false
+  filter-ui: false
+page-layout: full
+title-block-banner: true
+---
+This website was created to support the Computer Vision for Beginners session of the University of Idaho's Symposium on AI Based Computer Vision.
+
+Below, you will find a series of posts that contain the content of the session and various helpful resources and reference materials.
+
+## Instructors and Contributors
+
+### Terry Soule
+Professor and Chair, Department of Computer Science
+
+### Barrie Robison
+Professor, Department of Biological Sciences
+Director, Institute for Interdisciplinary Data Sciences
+
+### Luke Sheneman
+Director, Research Computing and Data Services
+

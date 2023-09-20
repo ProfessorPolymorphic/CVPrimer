@@ -1,0 +1,44 @@
+[
+  {
+    "objectID": "posts/NextSteps/index.html",
+    "href": "posts/NextSteps/index.html",
+    "title": "Next Steps",
+    "section": "",
+    "text": "Deep Dive Learning:\n\nOnline Courses: Recommend beginner-friendly online courses. Platforms like Coursera, edX, and Udacity offer comprehensive courses on AI and computer vision.\nBooks: Share a list of introductory books on AI and computer vision. For instance, “Deep Learning” by Ian Goodfellow, Yoshua Bengio, and Aaron Courville is an excellent resource.\n\nHands-on Experience:\n\nExperiment with Platforms: Encourage participants to try platforms like Google’s Teachable Machine, which offers a no-code introduction to machine learning and computer vision.\nWorkshops: Organize or recommend follow-up hands-on workshops where participants can get practical experience with computer vision tools and applications.\n\nNetworking:\n\nJoin Relevant Groups: Recommend local or online AI/Computer Vision communities, like Meetup groups or online forums, where they can discuss and share insights.\nAttend Conferences: While your symposium is a starting point, there are many AI and computer vision-focused conferences that can provide deeper insights and networking opportunities.\n\nResearch Collaborations:\n\nInterdisciplinary Collaborations: Encourage participants to explore collaborations within their institutions. Computer vision can be a tool for many fields, and interdisciplinary projects can yield fascinating results.\nReach out to Experts: If participants have specific queries or projects in mind, they could reach out to computer vision experts for guidance or collaboration.\n\nStay Updated:\n\nNewsletters and Blogs: Recommend popular AI and computer vision newsletters or blogs that provide updates on the latest research, tools, and trends.\nResearch Papers: Platforms like arXiv.org can be a source of the latest research papers, though it might be advanced for some participants.\n\nEthical Considerations:\n\nWorkshops on AI Ethics: Suggest attending workshops or courses that specifically deal with the ethics of AI, to understand potential biases, privacy concerns, and other ethical issues.\nGuidelines and Standards: Familiarize them with any existing guidelines or standards in the field of AI and computer vision ethics.\n\nExperiment with Tools and Libraries:\n\nPython Libraries: Introduce libraries like OpenCV, TensorFlow, and PyTorch as tools they can experiment with once they’re more comfortable with the basics.\n\n\nRemember, the aim is to empower participants to continue their journey in understanding and possibly integrating computer vision into their research. By providing clear takeaways and next steps, you’re giving them the tools and direction to do so."
+  },
+  {
+    "objectID": "posts/SessionOutline/index.html",
+    "href": "posts/SessionOutline/index.html",
+    "title": "Topic Outline",
+    "section": "",
+    "text": "Brief history of computer vision and its evolution with AI.\nWhy it matters: Real-world impacts and potential applications across various domains.\n\n\n\n\n\nDefining computer vision: The process by which machines “see” and interpret images.\nKey components: Sensors (cameras), processing units, algorithms.\nDifference between traditional image processing and AI-based computer vision.\n\n\n\n\n\nBrief overview of what neural networks are, focusing on Convolutional Neural Networks (CNNs).\nExplain how deep learning has revolutionized computer vision tasks.\nShow simple visual examples to demonstrate how layers in a CNN can detect patterns and features (like edges, textures, and objects).\n\n\n\n\n\nImage classification: Assigning labels to images.\nObject detection: Identifying and locating objects in images.\nSemantic segmentation: Assigning a label to every pixel in an image, i.e., determining which pixels belong to which object.\nFacial recognition, pose estimation, and more.\nShowcase real-life examples and applications for each capability.\n\n\n\n\n\nLimitations of current AI models: biases, overfitting, adversarial attacks, and data requirements.\nEthical concerns: Privacy, misuse (surveillance, deepfakes), and decision-making accountability.\nEmphasize the importance of understanding these challenges, especially for researchers wanting to incorporate these technologies into their work.\n\n\n\n\n\nEmerging technologies and methods: Transformers in vision, unsupervised learning, and hybrid models.\nPotential applications: Augmented reality, advanced healthcare imaging, and environmental monitoring.\nEncouraging researchers to imagine the applications in their own fields.\n\n\n\n\n\nAllow participants to ask questions and discuss potential applications to their respective research areas.\nProvide resources for further learning."
+  },
+  {
+    "objectID": "posts/Vocabulary/index.html",
+    "href": "posts/Vocabulary/index.html",
+    "title": "Vocabulary Cheat Sheet",
+    "section": "",
+    "text": "Computer Vision: The field of study that enables machines to interpret and make decisions based on visual data (images, videos).\nImage Processing: Techniques to manipulate images to enhance or extract information.\nDeep Learning: A subset of machine learning using neural networks with many layers (deep architectures) to analyze various factors of data.\n\n\n\n\n\nNeural Network: A computational model inspired by the structure of biological neural networks. Used for pattern recognition and learning.\nConvolutional Neural Network (CNN): A type of deep learning algorithm specifically designed for processing structured grid data, such as images.\nActivation Function: A mathematical function applied to a neuron’s output, determining the neuron’s output signal.\nFeature Map: The output of one filter applied over the entire input image in a convolutional layer.\nPooling: A technique in CNNs to down-sample the spatial dimensions of data, retaining important information.\nTransformer Architectures: A type of deep learning model primarily used for sequence-to-sequence tasks but is seeing increasing adoption in computer vision.\n\n\n\n\n\nImage Classification: Determining the category of an object within an image.\nObject Detection: Identifying and locating multiple objects within an image.\nSemantic Segmentation: Classifying each pixel in an image to a specific category, determining which object it belongs to.\nPose Estimation: Determining the orientation or pose of a specific object or figure in an image or video.\n\n\n\n\n\nTransfer Learning: A technique where a pre-trained model (trained on a large dataset) is used as a starting point for a different, but related task.\nData Augmentation: Techniques to artificially increase the size of training datasets by applying various transformations (e.g., rotation, scaling).\nEdge Detection: Identifying points in an image where there’s a sudden change in brightness or color, useful for finding boundaries within objects.\n\n\n\n\n\nOverfitting: When an AI model is too closely tailored to the training data and performs poorly on new, unseen data.\nAdversarial Attack: A technique to fool AI models by slightly altering the input data, leading to incorrect outputs.\nBias (in AI): When an AI model produces results that are systematically prejudiced due to unfair algorithms or skewed input data.\n\n\n\n\n\nAugmented Reality (AR): A technology that superimposes computer-generated content on a user’s view of the real world."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Computer Vision Primer",
+    "section": "",
+    "text": "This website was created to support the Computer Vision for Beginners session of the University of Idaho’s Symposium on AI Based Computer Vision.\nBelow, you will find a series of posts that contain the content of the session and various helpful resources and reference materials."
+  },
+  {
+    "objectID": "index.html#instructors-and-contributors",
+    "href": "index.html#instructors-and-contributors",
+    "title": "Computer Vision Primer",
+    "section": "Instructors and Contributors",
+    "text": "Instructors and Contributors\n\nTerry Soule\nProfessor and Chair, Department of Computer Science\n\n\nBarrie Robison\nProfessor, Department of Biological Sciences Director, Institute for Interdisciplinary Data Sciences\n\n\nLuke Sheneman\nDirector, Research Computing and Data Services"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this blog"
+  }
+]

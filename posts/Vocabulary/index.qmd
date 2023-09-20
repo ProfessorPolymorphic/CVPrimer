@@ -1,0 +1,44 @@
+---
+title: "Vocabulary Cheat Sheet"
+description: "A handy reference where you can look up stuff like `semantic segmentation`."
+author: "Barrie Robison"
+date: "2023-09-20"
+categories: [vocabulary, reference material]
+image: abstractcompute1.png
+---
+
+# COMPUTER VISION: Common Vocabulary
+
+## Foundations & Key Concepts:
+- **Computer Vision:** The field of study that enables machines to interpret and make decisions based on visual data (images, videos).
+- **Image Processing:** Techniques to manipulate images to enhance or extract information.
+- **Deep Learning:** A subset of machine learning using neural networks with many layers (deep architectures) to analyze various factors of data.
+
+## Neural Network Architectures & Components:
+- **Neural Network:** A computational model inspired by the structure of biological neural networks. Used for pattern recognition and learning.
+- **Convolutional Neural Network (CNN):** A type of deep learning algorithm specifically designed for processing structured grid data, such as images.
+- **Activation Function:** A mathematical function applied to a neuron's output, determining the neuron's output signal.
+- **Feature Map:** The output of one filter applied over the entire input image in a convolutional layer.
+- **Pooling:** A technique in CNNs to down-sample the spatial dimensions of data, retaining important information.
+- **Transformer Architectures:** A type of deep learning model primarily used for sequence-to-sequence tasks but is seeing increasing adoption in computer vision.
+
+## Key Tasks in Computer Vision:
+- **Image Classification:** Determining the category of an object within an image.
+- **Object Detection:** Identifying and locating multiple objects within an image.
+- **Semantic Segmentation:** Classifying each pixel in an image to a specific category, determining which object it belongs to.
+- **Pose Estimation:** Determining the orientation or pose of a specific object or figure in an image or video.
+
+## Techniques & Strategies:
+- **Transfer Learning:** A technique where a pre-trained model (trained on a large dataset) is used as a starting point for a different, but related task.
+- **Data Augmentation:** Techniques to artificially increase the size of training datasets by applying various transformations (e.g., rotation, scaling).
+- **Edge Detection:** Identifying points in an image where there's a sudden change in brightness or color, useful for finding boundaries within objects.
+
+## Challenges & Concerns:
+- **Overfitting:** When an AI model is too closely tailored to the training data and performs poorly on new, unseen data.
+- **Adversarial Attack:** A technique to fool AI models by slightly altering the input data, leading to incorrect outputs.
+- **Bias (in AI):** When an AI model produces results that are systematically prejudiced due to unfair algorithms or skewed input data.
+
+## Emerging Technologies & Applications:
+- **Augmented Reality (AR):** A technology that superimposes computer-generated content on a user's view of the real world.
+
+
