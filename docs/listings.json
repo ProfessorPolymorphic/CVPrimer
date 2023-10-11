@@ -2,6 +2,8 @@
   {
     "listing": "/index.html",
     "items": [
+      "/posts/IntroVideo/index.html",
+      "/posts/Slides/index.html",
       "/posts/NextSteps/index.html",
       "/posts/SessionOutline/index.html",
       "/posts/Vocabulary/index.html"

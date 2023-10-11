@@ -32,6 +32,7 @@ image: abstractcompute1.png
 - **Transfer Learning:** A technique where a pre-trained model (trained on a large dataset) is used as a starting point for a different, but related task.
 - **Data Augmentation:** Techniques to artificially increase the size of training datasets by applying various transformations (e.g., rotation, scaling).
 - **Edge Detection:** Identifying points in an image where there's a sudden change in brightness or color, useful for finding boundaries within objects.
+- **Kernel:**
 
 ## Challenges & Concerns:
 - **Overfitting:** When an AI model is too closely tailored to the training data and performs poorly on new, unseen data.

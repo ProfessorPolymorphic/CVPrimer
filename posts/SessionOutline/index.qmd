@@ -47,6 +47,8 @@ image: abstractcomputevision1.png
 
 
 
+https://www.nvidia.com/en-us/glossary/data-science/computer-vision/
+
 
 
 

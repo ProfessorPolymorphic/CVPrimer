@@ -1,0 +1,163 @@
+---
+title: "Science Fiction predictions of computer vision."
+description: "Science fiction films have long been a medium for exploring the potential (and often dystopian) applications of emerging technologies, including computer vision."
+categories: [videos, reference material, introduction]
+image: SciFi.png
+---
+
+
+
+One fun way to motivate our exploration of computer vision is to look at how this technology was represented in science fiction. While this is certainly not an exhaustive treatment, here are some interesting and provocative examples that leapt to mind...
+
+## SECURITY SCANNING
+
+### [Total Recall](https://www.imdb.com/title/tt0100802/)
+
+**Based on:** The Phillip K. Dick short story, "We Can Remember It For You Wholesale".
+
+**Director:** Paul Verhoeven
+
+**Starring:** Arnold Schwarzenegger | Sharon Stone | Michael Ironside
+
+**Released:** 1990
+
+**Set in:**  2084
+
+{{< video https://youtu.be/z02zi1S8vZQ?si=Z4iaTgLZzWqRJX3A
+    start="1"
+    aspect-ratio="21x9" 
+>}}
+
+Other examples of computer vision applications in Total Recall include self driving cars called "Johnny Cabs".
+
+## PERSONALIZED SHOPPING
+
+### [Minority Report](https://www.imdb.com/title/tt0181689/?ref_=fn_al_tt_1)
+
+**Based on:** The short story "The Minority Report" by Philip K. Dick.
+
+**Director:** Steven Spielberg
+
+**Starring:** Tom Cruise | Colin Farrell | Samantha Morton | Max von Sydow
+
+**Released:** 2002
+
+**Set in:** 2054
+
+In "Minority Report," set in the year 2054, a specialized police department called "PreCrime" apprehends criminals based on foreknowledge provided by three psychics called "precogs." The story takes a turn when its lead officer, played by Tom Cruise, is himself accused of a future crime. The film delves into issues of free will, determinism, and the ethics of pre-emptive justice.
+
+{{< video https://www.youtube.com/watch?v=7bXJ_obaiYQ
+    title="What is the CERN?"
+    start="116"
+    aspect-ratio="21x9" 
+>}}
+
+Other examples of computer vision in Minority Report include self driving cars and gesture recognition.
+
+## AUTONOMOUS ROBOTS
+
+### [Terminator](https://www.imdb.com/title/tt0088247/?ref_=fn_al_tt_1)
+
+**Based on:** Original screenplay by James Cameron and Gale Anne Hurd.
+
+**Director:** James Cameron
+
+**Starring:** Arnold Schwarzenegger | Linda Hamilton | Michael Biehn
+
+**Released:** 1984
+
+**Set in:** The film alternates between 2029 (future war scenes) and 1984.
+
+{{< video https://www.youtube.com/watch?v=v0vbTHd04gE&t=11s
+    title="What is the CERN?"
+    start="1"
+    end="45"
+    aspect-ratio="21x9" 
+>}}
+
+
+In "The Terminator," a relentless cyborg assassin known as the Terminator is sent back in time from 2029 to 1984 to kill Sarah Connor, the mother of future resistance leader John Connor. Simultaneously, Kyle Reese, a soldier from the future, is also sent back to protect Sarah. The film delves into themes of fate, technology run amok, and the potential consequences of time travel. The Terminator's iconic red-hued vision provides a computer's perspective, illustrating its objectives and showcasing early concepts of computer vision in film.
+
+### [Terminator 2](https://www.imdb.com/title/tt0103064/?ref_=fn_al_tt_1)
+
+**Based on:** Characters created by James Cameron and Gale Anne Hurd.
+
+**Director:** James Cameron
+
+**Starring:** Arnold Schwarzenegger | Linda Hamilton | Edward Furlong | Robert Patrick
+
+**Released:** 1991
+
+**Set in:** Primarily 1995, with glimpses into a post-apocalyptic 2029.
+
+In "Terminator 2: Judgment Day," Skynet, the malevolent AI from the future, sends a new and more advanced Terminator, the T-1000, back to 1995 to eliminate John Connor as a young boy. Meanwhile, the resistance reprograms a captured Terminator, the T-800 model (Schwarzenegger), and sends it back in time to protect John. With the aid of his mother Sarah, and the T-800, John battles the T-1000. The film touches on themes of destiny, the nature of humanity, and the potential catastrophic impact of unchecked technological advancements. The T-1000, with its liquid metal form, introduced groundbreaking visual effects to cinema and further illustrated advanced concepts of robotics and computer vision.
+
+
+{{< video https://youtu.be/zzcdPA6qYAU?si=AWVfiZ1DUyaWMRG_
+    title="What is the CERN?"
+    start="1"
+    end="40"
+    aspect-ratio="21x9" 
+>}}
+
+
+
+### [Robocop](https://www.imdb.com/title/tt0093870/?ref_=fn_al_tt_1)
+
+**Based on:** Original screenplay by Edward Neumeier and Michael Miner.
+
+**Director:** Paul Verhoeven
+
+**Starring:** Peter Weller | Nancy Allen | Dan O'Herlihy | Ronny Cox | Kurtwood Smith
+
+**Released:** 1987
+
+**Set in:** A dystopian Detroit in the near future (though a specific year isn't mentioned).
+
+In "RoboCop," Officer Alex Murphy is brutally attacked and left for dead by a gang of criminals. The mega-corporation Omni Consumer Products (OCP) takes advantage of Murphy's condition to transform him into RoboCop, a cyborg law enforcement officer designed to serve as the ultimate solution to crime in a city on the brink of collapse. As RoboCop starts to regain fragments of his human memories, he seeks vengeance against those who wronged him, all while uncovering corruption within OCP. The film examines themes of identity, the human soul, corporate greed, and the ethical dilemmas surrounding advanced technology. RoboCop's interface, enhanced vision, and targeting systems represent early depictions of computer vision and augmented reality in cinema.
+
+This example is illustrative of some of the perils of computer vision...
+
+[FAIR WARNING!]{.red} If you don't like movie gore DO NOT WATCH THIS VIDEO.
+
+{{< video https://youtu.be/TYsulVXpgYg?si=pgh6fh_x9tQ0mjic
+    start="1"
+    aspect-ratio="21x9" 
+>}}
+
+
+## Other Examples
+
+According to GPT-4, other examples include:
+
+1. **Blade Runner (1982) & Blade Runner 2049 (2017)**
+    - **Tech Highlight:** Retinal scanning and facial recognition.
+    - In the Blade Runner universe, replicants (bioengineered beings) are identified through detailed eye examinations. This tech resembles modern-day retinal scanning.
+
+2. **A.I. Artificial Intelligence (2001)**
+    - **Tech Highlight:** Facial recognition and emotion detection.
+    - Robots in this Spielberg film use advanced computer vision to recognize and interpret human facial expressions, aiding in their human-like interactions.
+
+3. **Ex Machina (2014)**
+    - **Tech Highlight:** Machine vision for robot-human interaction.
+    - The humanoid robot, Ava, uses advanced computer vision to understand her surroundings and interact with the human protagonist.
+
+4.  **Iron Man Series**
+    - **Tech Highlight:** Augmented reality (AR) and object tracking.
+    - Tony Stark's helmet provides a heads-up display (HUD) with real-time data about his surroundings, made possible by advanced computer vision.
+
+6. **Eagle Eye (2008)**
+    - **Tech Highlight:** Ubiquitous surveillance.
+    - The film showcases a superintelligent computer system that uses cameras everywhere to track and manipulate the protagonists.
+
+8. **WALL·E (2008)**
+    - **Tech Highlight:** Object recognition and interaction.
+    - The titular robot uses computer vision to recognize and categorize trash, and later to interact with other robots and objects.
+
+9. **Ghost in the Shell (1995 & 2017)**
+    - **Tech Highlight:** Cyborg vision and hacking optics.
+    - The protagonist, Major, sees the world with augmented visuals, tracking persons of interest and accessing digital data overlays.
+
+
+
+
