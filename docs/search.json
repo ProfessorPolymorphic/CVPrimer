@@ -7,36 +7,36 @@
     "text": "Deep Dive Learning:\n\nOnline Courses: Recommend beginner-friendly online courses. Platforms like Coursera, edX, and Udacity offer comprehensive courses on AI and computer vision.\nBooks: Share a list of introductory books on AI and computer vision. For instance, “Deep Learning” by Ian Goodfellow, Yoshua Bengio, and Aaron Courville is an excellent resource.\n\nHands-on Experience:\n\nExperiment with Platforms: Encourage participants to try platforms like Google’s Teachable Machine, which offers a no-code introduction to machine learning and computer vision.\nWorkshops: Organize or recommend follow-up hands-on workshops where participants can get practical experience with computer vision tools and applications.\n\nNetworking:\n\nJoin Relevant Groups: Recommend local or online AI/Computer Vision communities, like Meetup groups or online forums, where they can discuss and share insights.\nAttend Conferences: While your symposium is a starting point, there are many AI and computer vision-focused conferences that can provide deeper insights and networking opportunities.\n\nResearch Collaborations:\n\nInterdisciplinary Collaborations: Encourage participants to explore collaborations within their institutions. Computer vision can be a tool for many fields, and interdisciplinary projects can yield fascinating results.\nReach out to Experts: If participants have specific queries or projects in mind, they could reach out to computer vision experts for guidance or collaboration.\n\nStay Updated:\n\nNewsletters and Blogs: Recommend popular AI and computer vision newsletters or blogs that provide updates on the latest research, tools, and trends.\nResearch Papers: Platforms like arXiv.org can be a source of the latest research papers, though it might be advanced for some participants.\n\nEthical Considerations:\n\nWorkshops on AI Ethics: Suggest attending workshops or courses that specifically deal with the ethics of AI, to understand potential biases, privacy concerns, and other ethical issues.\nGuidelines and Standards: Familiarize them with any existing guidelines or standards in the field of AI and computer vision ethics.\n\nExperiment with Tools and Libraries:\n\nPython Libraries: Introduce libraries like OpenCV, TensorFlow, and PyTorch as tools they can experiment with once they’re more comfortable with the basics.\n\n\nRemember, the aim is to empower participants to continue their journey in understanding and possibly integrating computer vision into their research. By providing clear takeaways and next steps, you’re giving them the tools and direction to do so."
   },
   {
-    "objectID": "posts/IntroVideo/index.html",
-    "href": "posts/IntroVideo/index.html",
+    "objectID": "posts/SciFi/index.html",
+    "href": "posts/SciFi/index.html",
     "title": "Science Fiction predictions of computer vision.",
     "section": "",
     "text": "One fun way to motivate our exploration of computer vision is to look at how this technology was represented in science fiction. While this is certainly not an exhaustive treatment, here are some interesting and provocative examples that leapt to mind…"
   },
   {
-    "objectID": "posts/IntroVideo/index.html#security-scanning",
-    "href": "posts/IntroVideo/index.html#security-scanning",
+    "objectID": "posts/SciFi/index.html#security-scanning",
+    "href": "posts/SciFi/index.html#security-scanning",
     "title": "Science Fiction predictions of computer vision.",
     "section": "SECURITY SCANNING",
     "text": "SECURITY SCANNING\n\nTotal Recall\nBased on: The Phillip K. Dick short story, “We Can Remember It For You Wholesale”.\nDirector: Paul Verhoeven\nStarring: Arnold Schwarzenegger | Sharon Stone | Michael Ironside\nReleased: 1990\nSet in: 2084\n\nOther examples of computer vision applications in Total Recall include self driving cars called “Johnny Cabs”."
   },
   {
-    "objectID": "posts/IntroVideo/index.html#personalized-shopping",
-    "href": "posts/IntroVideo/index.html#personalized-shopping",
+    "objectID": "posts/SciFi/index.html#personalized-shopping",
+    "href": "posts/SciFi/index.html#personalized-shopping",
     "title": "Science Fiction predictions of computer vision.",
     "section": "PERSONALIZED SHOPPING",
     "text": "PERSONALIZED SHOPPING\n\nMinority Report\nBased on: The short story “The Minority Report” by Philip K. Dick.\nDirector: Steven Spielberg\nStarring: Tom Cruise | Colin Farrell | Samantha Morton | Max von Sydow\nReleased: 2002\nSet in: 2054\nIn “Minority Report,” set in the year 2054, a specialized police department called “PreCrime” apprehends criminals based on foreknowledge provided by three psychics called “precogs.” The story takes a turn when its lead officer, played by Tom Cruise, is himself accused of a future crime. The film delves into issues of free will, determinism, and the ethics of pre-emptive justice.\n\nOther examples of computer vision in Minority Report include self driving cars and gesture recognition."
   },
   {
-    "objectID": "posts/IntroVideo/index.html#autonomous-robots",
-    "href": "posts/IntroVideo/index.html#autonomous-robots",
+    "objectID": "posts/SciFi/index.html#autonomous-robots",
+    "href": "posts/SciFi/index.html#autonomous-robots",
     "title": "Science Fiction predictions of computer vision.",
     "section": "AUTONOMOUS ROBOTS",
     "text": "AUTONOMOUS ROBOTS\n\nTerminator\nBased on: Original screenplay by James Cameron and Gale Anne Hurd.\nDirector: James Cameron\nStarring: Arnold Schwarzenegger | Linda Hamilton | Michael Biehn\nReleased: 1984\nSet in: The film alternates between 2029 (future war scenes) and 1984.\n\nIn “The Terminator,” a relentless cyborg assassin known as the Terminator is sent back in time from 2029 to 1984 to kill Sarah Connor, the mother of future resistance leader John Connor. Simultaneously, Kyle Reese, a soldier from the future, is also sent back to protect Sarah. The film delves into themes of fate, technology run amok, and the potential consequences of time travel. The Terminator’s iconic red-hued vision provides a computer’s perspective, illustrating its objectives and showcasing early concepts of computer vision in film.\n\n\nTerminator 2\nBased on: Characters created by James Cameron and Gale Anne Hurd.\nDirector: James Cameron\nStarring: Arnold Schwarzenegger | Linda Hamilton | Edward Furlong | Robert Patrick\nReleased: 1991\nSet in: Primarily 1995, with glimpses into a post-apocalyptic 2029.\nIn “Terminator 2: Judgment Day,” Skynet, the malevolent AI from the future, sends a new and more advanced Terminator, the T-1000, back to 1995 to eliminate John Connor as a young boy. Meanwhile, the resistance reprograms a captured Terminator, the T-800 model (Schwarzenegger), and sends it back in time to protect John. With the aid of his mother Sarah, and the T-800, John battles the T-1000. The film touches on themes of destiny, the nature of humanity, and the potential catastrophic impact of unchecked technological advancements. The T-1000, with its liquid metal form, introduced groundbreaking visual effects to cinema and further illustrated advanced concepts of robotics and computer vision.\n\n\n\nRobocop\nBased on: Original screenplay by Edward Neumeier and Michael Miner.\nDirector: Paul Verhoeven\nStarring: Peter Weller | Nancy Allen | Dan O’Herlihy | Ronny Cox | Kurtwood Smith\nReleased: 1987\nSet in: A dystopian Detroit in the near future (though a specific year isn’t mentioned).\nIn “RoboCop,” Officer Alex Murphy is brutally attacked and left for dead by a gang of criminals. The mega-corporation Omni Consumer Products (OCP) takes advantage of Murphy’s condition to transform him into RoboCop, a cyborg law enforcement officer designed to serve as the ultimate solution to crime in a city on the brink of collapse. As RoboCop starts to regain fragments of his human memories, he seeks vengeance against those who wronged him, all while uncovering corruption within OCP. The film examines themes of identity, the human soul, corporate greed, and the ethical dilemmas surrounding advanced technology. RoboCop’s interface, enhanced vision, and targeting systems represent early depictions of computer vision and augmented reality in cinema.\nThis example is illustrative of some of the perils of computer vision…\nFAIR WARNING! If you don’t like movie gore DO NOT WATCH THIS VIDEO."
   },
   {
-    "objectID": "posts/IntroVideo/index.html#other-examples",
-    "href": "posts/IntroVideo/index.html#other-examples",
+    "objectID": "posts/SciFi/index.html#other-examples",
+    "href": "posts/SciFi/index.html#other-examples",
     "title": "Science Fiction predictions of computer vision.",
     "section": "Other Examples",
     "text": "Other Examples\nAccording to GPT-4, other examples include:\n\nBlade Runner (1982) & Blade Runner 2049 (2017)\n\nTech Highlight: Retinal scanning and facial recognition.\nIn the Blade Runner universe, replicants (bioengineered beings) are identified through detailed eye examinations. This tech resembles modern-day retinal scanning.\n\nA.I. Artificial Intelligence (2001)\n\nTech Highlight: Facial recognition and emotion detection.\nRobots in this Spielberg film use advanced computer vision to recognize and interpret human facial expressions, aiding in their human-like interactions.\n\nEx Machina (2014)\n\nTech Highlight: Machine vision for robot-human interaction.\nThe humanoid robot, Ava, uses advanced computer vision to understand her surroundings and interact with the human protagonist.\n\nIron Man Series\n\nTech Highlight: Augmented reality (AR) and object tracking.\nTony Stark’s helmet provides a heads-up display (HUD) with real-time data about his surroundings, made possible by advanced computer vision.\n\nEagle Eye (2008)\n\nTech Highlight: Ubiquitous surveillance.\nThe film showcases a superintelligent computer system that uses cameras everywhere to track and manipulate the protagonists.\n\nWALL·E (2008)\n\nTech Highlight: Object recognition and interaction.\nThe titular robot uses computer vision to recognize and categorize trash, and later to interact with other robots and objects.\n\nGhost in the Shell (1995 & 2017)\n\nTech Highlight: Cyborg vision and hacking optics.\nThe protagonist, Major, sees the world with augmented visuals, tracking persons of interest and accessing digital data overlays."
@@ -168,6 +168,27 @@
     "text": "Computer Vision 4U\nWhat do I need to connect this technology to my research?\n\nUnderstand the nature of your data.\nUnderstand the nature of your task. (Segmentation, Classification, Detection, real time?)\nHow much training is required? How unique is your application?\nWhere will you get the training data?"
   },
   {
+    "objectID": "posts/IntroVid/index.html",
+    "href": "posts/IntroVid/index.html",
+    "title": "Video Introduction",
+    "section": "",
+    "text": "How to introduce the basics of computer vision in an efficient and engaging way? These days, any lecture we could put together would be re-inventing the wheel. Instead, we are going to watch a video!\nWhile there are many videos out there on this topic, we found this one to be clear, up to date, and engaging, with many exciting example applications. Also, they provide links to their sources in their video description and we’ve reproduced these links below.\nThat being said, it is important to understand its source. The company that made the video is called Altexsoft. They are a company that applies these technologies to the hospitality industry. Consider this information as you see fit."
+  },
+  {
+    "objectID": "posts/IntroVid/index.html#things-to-ponder",
+    "href": "posts/IntroVid/index.html#things-to-ponder",
+    "title": "Video Introduction",
+    "section": "Things to ponder",
+    "text": "Things to ponder\nAs you watch the video, conder the following for additional discussion:\n\nWhat examples (if any) are closest to applications related to your own research?\nWhat concepts are still confusing or were not addressed in enough detail?\nWas anything misleading or overhyped?"
+  },
+  {
+    "objectID": "posts/IntroVid/index.html#how-computer-vision-works",
+    "href": "posts/IntroVid/index.html#how-computer-vision-works",
+    "title": "Video Introduction",
+    "section": "How Computer Vision Works",
+    "text": "How Computer Vision Works\n\n\nSources\nhttps://setosa.io/ev/image-kernels/\nhttps://www.altexsoft.com/case-studies/healthcare/altexsoft-builds-lung-diagnostics-tool/\nhttps://www.kaggle.com/datasets/nikhilpandey360/chest-xray-masks-and-labels\nhttps://www.ghsa.org/sites/default/files/2021-05/Pedestrian%20Traffic%20Fatalities%20By%20State%202020%20Preliminary%20Data%20Addendum%205-20-21.pdf\nhttps://www.gerberinjurylaw.com/autonomous-self-driving-vehicle-statistics-2021/\nhttps://www.independent.co.uk/tech/india-police-missing-children-facial-recognition-tech-trace-find-reunite-a8320406.html\nhttps://www.interpol.int/en/How-we-work/Forensics/Facial-Recognition"
+  },
+  {
     "objectID": "posts/SessionOutline/index.html",
     "href": "posts/SessionOutline/index.html",
     "title": "Topic Outline",
@@ -186,7 +207,7 @@
     "href": "index.html",
     "title": "Computer Vision Primer",
     "section": "",
-    "text": "Some Directions!\n\n\n\n\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n  \n\n\n\n\nScience Fiction predictions of computer vision.\n\n\n\n\n\n\n\nvideos\n\n\nreference material\n\n\nintroduction\n\n\n\n\nScience fiction films have long been a medium for exploring the potential (and often dystopian) applications of emerging technologies, including computer vision.\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\nHistory of Computer Vision\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nNext Steps\n\n\n\n\n\n\n\nreference material\n\n\nadditional resources\n\n\n\n\nSome logical next steps and resources to further explore.\n\n\n\n\n\n\nSep 20, 2023\n\n\nBarrie Robison\n\n\n\n\n\n\n  \n\n\n\n\nTopic Outline\n\n\n\n\n\n\n\nvocabulary\n\n\nreference material\n\n\n\n\nA brief summary of the major components of the primer session.\n\n\n\n\n\n\nSep 20, 2023\n\n\nBarrie Robison\n\n\n\n\n\n\n  \n\n\n\n\nVocabulary Cheat Sheet\n\n\n\n\n\n\n\nvocabulary\n\n\nreference material\n\n\n\n\nA handy reference where you can look up stuff like semantic segmentation.\n\n\n\n\n\n\nSep 20, 2023\n\n\nBarrie Robison\n\n\n\n\n\n\nNo matching items"
+    "text": "Some Directions!\n\n\n\n\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nScience Fiction predictions of computer vision.\n\n\n\nVideos\n\n\nResources\n\n\nIntroduction\n\n\nApplications\n\n\n\nScience fiction films have long been a medium for exploring the potential (and often dystopian) applications of emerging technologies, including computer vision.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\nHistory of Computer Vision\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nVideo Introduction\n\n\n\nVideos\n\n\nResources\n\n\nIntroduction\n\n\nApplications\n\n\n\nThe basics of computer vision.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNext Steps\n\n\n\nreference material\n\n\nadditional resources\n\n\n\nSome logical next steps and resources to further explore.\n\n\n\nBarrie Robison\n\n\nSep 20, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTopic Outline\n\n\n\nvocabulary\n\n\nreference material\n\n\n\nA brief summary of the major components of the primer session.\n\n\n\nBarrie Robison\n\n\nSep 20, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nVocabulary Cheat Sheet\n\n\n\nvocabulary\n\n\nreference material\n\n\n\nA handy reference where you can look up stuff like semantic segmentation.\n\n\n\nBarrie Robison\n\n\nSep 20, 2023\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "about.html",

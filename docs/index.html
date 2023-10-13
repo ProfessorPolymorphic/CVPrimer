@@ -70,9 +70,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-title','listing-author','listing-date','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
+      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description","listing-categories"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -117,12 +117,7 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/" rel="" target=""><i class="bi bi-github" role="img">
-</i> 
- <span class="menu-text"></span></a>
-  </li>  
-  <li class="nav-item compact">
-    <a class="nav-link" href="https://twitter.com" rel="" target=""><i class="bi bi-twitter" role="img">
+    <a class="nav-link" href="https://github.com/ProfessorPolymorphic/CVPrimer" rel="" target=""><i class="bi bi-github" role="img">
 </i> 
  <span class="menu-text"></span></a>
   </li>  
@@ -139,7 +134,7 @@ ul.task-list li input[type="checkbox"] {
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(5)</span></div><div class="category" data-category="additional resources">additional resources <span class="quarto-category-count">(1)</span></div><div class="category" data-category="introduction">introduction <span class="quarto-category-count">(1)</span></div><div class="category" data-category="reference material">reference material <span class="quarto-category-count">(4)</span></div><div class="category" data-category="videos">videos <span class="quarto-category-count">(1)</span></div><div class="category" data-category="vocabulary">vocabulary <span class="quarto-category-count">(2)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(6)</span></div><div class="category" data-category="Applications">Applications <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Introduction">Introduction <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Resources">Resources <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Videos">Videos <span class="quarto-category-count">(2)</span></div><div class="category" data-category="additional resources">additional resources <span class="quarto-category-count">(1)</span></div><div class="category" data-category="reference material">reference material <span class="quarto-category-count">(3)</span></div><div class="category" data-category="vocabulary">vocabulary <span class="quarto-category-count">(2)</span></div></div></div>
 <!-- main -->
 <main class="content column-page-left" id="quarto-document-content">
 
@@ -165,7 +160,7 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
+<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
 <div class="listing-actions-group">
    <div class="input-group input-group-sm quarto-listing-sort">
      <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
@@ -191,79 +186,111 @@ ul.task-list li input[type="checkbox"] {
       <input type="text" class="search form-control" placeholder="Filter">
     </div>
 </div>
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="videos,reference material,introduction" data-listing-file-modified-sort="1697058803261" data-listing-reading-time-sort="4.945">
-<div class="thumbnail">
-<p><a href="./posts/IntroVideo/index.html"> <img src="./posts/IntroVideo/SciFi.png" class="thumnail-image"> </a></p>
-</div>
-<div class="body">
-<a href="./posts/IntroVideo/index.html">
-<h3 class="no-anchor listing-title">
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-categories="Videos,Resources,Introduction,Applications" data-listing-file-modified-sort="1697218782826" data-listing-reading-time-sort="4.945">
+<a href="./posts/SciFi/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./posts/SciFi/SciFi.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
 Science Fiction predictions of computer vision.
-</h3>
-<div class="listing-subtitle">
-
-</div>
-</a>
+</h5>
 <div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('videos'); return false;">
-videos
+<div class="listing-category" onclick="window.quartoListingCategory('Videos'); return false;">
+Videos
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('reference material'); return false;">
-reference material
+<div class="listing-category" onclick="window.quartoListingCategory('Resources'); return false;">
+Resources
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('introduction'); return false;">
-introduction
+<div class="listing-category" onclick="window.quartoListingCategory('Introduction'); return false;">
+Introduction
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Applications'); return false;">
+Applications
 </div>
 </div>
-<a href="./posts/IntroVideo/index.html">
-<div class="listing-description">
-<p>Science fiction films have long been a medium for exploring the potential (and often dystopian) applications of emerging technologies, including computer vision.</p>
+<div class="card-text listing-description">
+Science fiction films have long been a medium for exploring the potential (and often dystopian) applications of emerging technologies, including computer vision.
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+
+</div>
+</div>
+</div>
 </div>
 </a>
 </div>
-<div class="metadata">
-<a href="./posts/IntroVideo/index.html"> </a>
+<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1697046434000" data-listing-reading-time-sort="3.335">
+<a href="./posts/Slides/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-img-bg" style="height: 150px;">
+&nbsp;
 </div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-listing-file-modified-sort="1697046434944" data-listing-reading-time-sort="3.335">
-<div class="thumbnail">
-<a href="./posts/Slides/index.html">
-<div class="thumbnail-image">
-
-</div>
-</a><p><a href="./posts/Slides/index.html"></a></p>
-</div>
-<div class="body">
-<a href="./posts/Slides/index.html">
-<h3 class="no-anchor listing-title">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
 History of Computer Vision
-</h3>
-<div class="listing-subtitle">
-
-</div>
-<div class="listing-description">
+</h5>
+<div class="card-text listing-description">
 https://youtu.be/oGvHtpJMO3M?si=3WZfUmzkbGXX7op8
 </div>
-</a>
-</div>
-<div class="metadata">
-<a href="./posts/Slides/index.html"> </a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="2" data-categories="reference material,additional resources" data-listing-date-sort="1695193200000" data-listing-file-modified-sort="1695239779531" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1.98">
-<div class="thumbnail">
-<p><a href="./posts/NextSteps/index.html"> <img src="./posts/NextSteps/abstractcomputevision2.png" class="thumnail-image"> </a></p>
-</div>
-<div class="body">
-<a href="./posts/NextSteps/index.html">
-<h3 class="no-anchor listing-title">
-Next Steps
-</h3>
-<div class="listing-subtitle">
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
 
 </div>
+</div>
+</div>
+</div>
 </a>
+</div>
+<div class="g-col-1" data-index="2" data-categories="Videos,Resources,Introduction,Applications" data-listing-file-modified-sort="1697219959614" data-listing-reading-time-sort="0.89">
+<a href="./posts/IntroVid/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./posts/IntroVid/SciFi.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Video Introduction
+</h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Videos'); return false;">
+Videos
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Resources'); return false;">
+Resources
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Introduction'); return false;">
+Introduction
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Applications'); return false;">
+Applications
+</div>
+</div>
+<div class="card-text listing-description">
+The basics of computer vision.
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="3" data-categories="reference material,additional resources" data-listing-date-sort="1695193200000" data-listing-file-modified-sort="1695239779531" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1.98">
+<a href="./posts/NextSteps/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./posts/NextSteps/abstractcomputevision2.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Next Steps
+</h5>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('reference material'); return false;">
 reference material
@@ -272,36 +299,31 @@ reference material
 additional resources
 </div>
 </div>
-<a href="./posts/NextSteps/index.html">
-<div class="listing-description">
-<p>Some logical next steps and resources to further explore.</p>
+<div class="card-text listing-description">
+Some logical next steps and resources to further explore.
 </div>
-</a>
-</div>
-<div class="metadata">
-<a href="./posts/NextSteps/index.html">
-<div class="listing-date">
-Sep 20, 2023
-</div>
+<div class="card-attribution card-text-small justify">
 <div class="listing-author">
 Barrie Robison
 </div>
+<div class="listing-date">
+Sep 20, 2023
+</div>
+</div>
+</div>
+</div>
 </a>
 </div>
-</div>
-<div class="quarto-post image-right" data-index="3" data-categories="vocabulary,reference material" data-listing-date-sort="1695193200000" data-listing-file-modified-sort="1696450086000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1.4">
-<div class="thumbnail">
-<p><a href="./posts/SessionOutline/index.html"> <img src="./posts/SessionOutline/abstractcomputevision1.png" class="thumnail-image"> </a></p>
-</div>
-<div class="body">
-<a href="./posts/SessionOutline/index.html">
-<h3 class="no-anchor listing-title">
+<div class="g-col-1" data-index="4" data-categories="vocabulary,reference material" data-listing-date-sort="1695193200000" data-listing-file-modified-sort="1696450086000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1.4">
+<a href="./posts/SessionOutline/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./posts/SessionOutline/abstractcomputevision1.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
 Topic Outline
-</h3>
-<div class="listing-subtitle">
-
-</div>
-</a>
+</h5>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('vocabulary'); return false;">
 vocabulary
@@ -310,36 +332,31 @@ vocabulary
 reference material
 </div>
 </div>
-<a href="./posts/SessionOutline/index.html">
-<div class="listing-description">
-<p>A brief summary of the major components of the primer session.</p>
+<div class="card-text listing-description">
+A brief summary of the major components of the primer session.
 </div>
-</a>
-</div>
-<div class="metadata">
-<a href="./posts/SessionOutline/index.html">
-<div class="listing-date">
-Sep 20, 2023
-</div>
+<div class="card-attribution card-text-small justify">
 <div class="listing-author">
 Barrie Robison
 </div>
+<div class="listing-date">
+Sep 20, 2023
+</div>
+</div>
+</div>
+</div>
 </a>
 </div>
-</div>
-<div class="quarto-post image-right" data-index="4" data-categories="vocabulary,reference material" data-listing-date-sort="1695193200000" data-listing-file-modified-sort="1696449158000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1.915">
-<div class="thumbnail">
-<p><a href="./posts/Vocabulary/index.html"> <img src="./posts/Vocabulary/abstractcompute1.png" class="thumnail-image"> </a></p>
-</div>
-<div class="body">
-<a href="./posts/Vocabulary/index.html">
-<h3 class="no-anchor listing-title">
+<div class="g-col-1" data-index="5" data-categories="vocabulary,reference material" data-listing-date-sort="1695193200000" data-listing-file-modified-sort="1696449158000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1.915">
+<a href="./posts/Vocabulary/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./posts/Vocabulary/abstractcompute1.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
 Vocabulary Cheat Sheet
-</h3>
-<div class="listing-subtitle">
-
-</div>
-</a>
+</h5>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('vocabulary'); return false;">
 vocabulary
@@ -348,22 +365,20 @@ vocabulary
 reference material
 </div>
 </div>
-<a href="./posts/Vocabulary/index.html">
-<div class="listing-description">
-<p>A handy reference where you can look up stuff like <code>semantic segmentation</code>.</p>
+<div class="card-text listing-description">
+A handy reference where you can look up stuff like <code>semantic segmentation</code>.
 </div>
-</a>
-</div>
-<div class="metadata">
-<a href="./posts/Vocabulary/index.html">
-<div class="listing-date">
-Sep 20, 2023
-</div>
+<div class="card-attribution card-text-small justify">
 <div class="listing-author">
 Barrie Robison
 </div>
-</a>
+<div class="listing-date">
+Sep 20, 2023
 </div>
+</div>
+</div>
+</div>
+</a>
 </div>
 </div>
 <div class="listing-no-matching d-none">
