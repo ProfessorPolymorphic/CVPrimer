@@ -1,80 +1,23 @@
 ---
 title: "AI based Computer Vision"
-subtitle: "A Beginner's Guide"
-format:
-  revealjs: 
-    slide-number: true
-    chalkboard: 
-      buttons: false
-    preview-links: auto
-    
-    css: styles.css
-    
-
- 
+subtitle: "Expanding beyond the introductory video..."
+author: "Barrie Robison"
+date: "10-6-2023"
+categories: [Neural Netrworks, Applications, Training, Data]
 ---
 
-https://youtu.be/oGvHtpJMO3M?si=3WZfUmzkbGXX7op8
 
 
+![](vidcat.png)
+
+## A Deeper Dive
+
+The [Introductory Video](../IntroVid/index.qmd) was great, but we need to expand on a few core concepts.  We assume that most participants in this session are primarily interested in how computer vision might be used in their own research.  With that in mind, we plan to expand on the following areas:
 
 
-## History of Computer Vision
+## Convolutionarl Neural Networks
 
-Hopefully this will be quick and not boring.
-
-## 1. **Early Beginnings (1960s):**
-- **Origins:** Computer vision as a field began in the 1960s with the vision of teaching machines to "see."
-- **Seminal Work:** Larry Roberts’ 1963 MIT PhD thesis, "Machine Perception of Three-Dimensional Solids," laid the groundwork by outlining the processes to extract 3D geometric structures from 2D images.
-- **Challenges:** Initial optimism waned as researchers encountered the inherent complexity of interpreting the wide variety of visual data in real-world images.
-
-## 2. **1970s - Symbolic Era:**
-- **Approach:** The main idea was to transform raw data into symbolic information which could be interpreted in a rule-based manner.
-- **Key Concepts:** Edge detection and extracting features like corners and lines became central. The "Generalized Cylinder" was proposed as a method to represent objects.
-- **Notable Methods:** The development of the Canny edge detector and the Hough transform.
-
-## 3. **1980s - Knowledge-Based Era:**
-- **Approach:** Shift towards integrating domain-specific knowledge into vision algorithms. These methods involved more explicit modeling of objects.
-- **Challenges:** While these models were powerful, they were also brittle, failing when assumptions about the scene or object were violated.
-
-## 4. **1990s - Data-Driven Era:**
-- **Approach:** Emphasis on learning directly from data, moving away from hard-coded rules.
-- **Key Development:** The advent of machine learning techniques, especially the beginning of neural networks.
-- **Achievements:** Face detection algorithms like the Viola-Jones detector, which could operate in real-time, were developed.
-
-## 5. **2000s - Rise of Machine Learning:**
-- **Driving Factor:** Increased computational power and the availability of large datasets.
-- **Key Achievements:** The development and popularization of Scale-Invariant Feature Transform (SIFT) and Speeded-Up Robust Features (SURF) for object recognition.
-- **Shift:** Towards the end of the decade, researchers started revisiting neural networks, but now with much larger datasets and more computational power.
-
-## 6. **2010s - Deep Learning Revolution:**
-- **Pivotal Moment:** In 2012, AlexNet, a deep convolutional neural network, significantly outperformed other methods in the ImageNet competition.
-- **Dominance of Deep Learning:** CNN architectures like ResNet, VGG, and GoogleNet set new standards in various computer vision tasks.
-- **Expansion of Applications:** Computer vision technologies started making their way into numerous applications from healthcare to autonomous driving.
-- **Datasets:** Emergence of large labeled datasets like MS COCO, ImageNet, and Open Images played a vital role in training sophisticated models.
-
-## 7. **2020s and Beyond:**
-- **Beyond Deep Learning:** Exploration of hybrid models and unsupervised learning methods.
-- **Ethical and Fairness Concerns:** Growing awareness of the biases in AI models and the ethical implications of computer vision technologies.
-- **Future Directions:** Transformers in vision, neuro-symbolic approaches, and low-shot or few-shot learning.
-
-## Application Areas
-
-This should be cool!
-https://findxkcd.com/?xkcd%5Bquery%5D=Artificial%20Intelligence&xkcd%5Bpage%5D=2
-
-https://blog.roboflow.com/gpt-4-vision/?utm_campaign=Newsletter+%232+%289%2F28%2F2023+-+%5BGPT-4V%5D%29&utm_content=Newsletter+-+9%2F28%2F2023+-+%5BGPT-4V%5D&utm_medium=email_action&utm_source=email
-
-## Introduction to Computer Vision
-
-### What is Computer Vision?
-- Goal: Understanding content of videos and images.
-- Subset of AI and deep learning.
-- Uses Convolutional Neural Networks (CNNs).
-
-
-
-## CNNs in Action
+How do CNNs actually work?  What are the good at?  What are their limitations?
 
 ### Segmentation
 - Classifying pixels (car, road, pedestrian).
@@ -88,22 +31,27 @@ https://blog.roboflow.com/gpt-4-vision/?utm_campaign=Newsletter+%232+%289%2F28%2
 - Localizes objects in images.
 - Places bounding boxes around detected objects.
 
+## Existing Libraries and Algorithms
 
-## Why Computer Vision Matters
+You don't have to program a CV algorthim from scratch.  There are many open source libraries and packages that have already been developed.  Often, these tools can serve as the basis for your specific applicatio with a small amount of tweaking.
 
-- Used in various industries: sports, automotive, agriculture, etc.
-- CNNs: The new "eyes" for many technologies.
-- Greater accuracy and speed than humans in many tasks.
-- Expected market growth: 47% annually through 2023.
+## Training Models
 
+What types of data are used to train CV models? Where do the data come from?
 
+## Hardware Requirements
 
-## Working of Computer Vision
+Hardware requirements for training and model development.
 
-- Analyzes images and creates numerical representations.
-- Uses convolutional layers to filter information.
-- Adjusts automatically based on the task.
+### Accelerating CNNs with GPUs
 
+- Difference between CPU and GPU.
+- Neural nets are highly parallel, suitable for GPUs.
+- GPUs accelerate vision operations, leaving CPUs for other tasks.
+
+Hardware requirements for deployment.
+
+Resources at the University of Idaho.
 
 
 ## Industry Use Cases
@@ -119,21 +67,6 @@ https://blog.roboflow.com/gpt-4-vision/?utm_campaign=Newsletter+%232+%289%2F28%2
 - Quality control and defect inspection.
 - Optical sorting in agriculture.
 
-
-
-## Role of Data Scientists
-
-- Python: Popular language for ML.
-- Data mining and data analysis.
-- Extract information from images and videos.
-
-
-
-## Accelerating CNNs with GPUs
-
-- Difference between CPU and GPU.
-- Neural nets are highly parallel, suitable for GPUs.
-- GPUs accelerate vision operations, leaving CPUs for other tasks.
 
 ## Computer Vision 4U
 

@@ -3,18 +3,18 @@ title: "Topic Outline"
 description: "A brief summary of the major components of the primer session."
 author: "Barrie Robison"
 date: "2023-09-20"
-categories: [vocabulary, reference material]
+categories: [vocabulary, resources]
 image: abstractcomputevision1.png
 ---
 
 ## Topic Outline
 
 
-### 1. Introduction (10 minutes)
-- Brief history of computer vision and its evolution with AI.
-- Why it matters: Real-world impacts and potential applications across various domains.
+### 1. Introduction 
+- CV as imagined in Science Fiction.
+- Introductory Video.
 
-### 2. Basics of Computer Vision (25 minutes)
+### 2. Basics of Computer Vision 
 - Defining computer vision: The process by which machines "see" and interpret images.
 - Key components: Sensors (cameras), processing units, algorithms.
 - Difference between traditional image processing and AI-based computer vision.

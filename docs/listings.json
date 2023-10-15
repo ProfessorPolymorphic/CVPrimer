@@ -2,11 +2,12 @@
   {
     "listing": "/index.html",
     "items": [
+      "/posts/IntroVid/index.html",
       "/posts/SciFi/index.html",
       "/posts/Slides/index.html",
-      "/posts/IntroVid/index.html",
       "/posts/NextSteps/index.html",
       "/posts/SessionOutline/index.html",
+      "/posts/History/index.html",
       "/posts/Vocabulary/index.html"
     ]
   }

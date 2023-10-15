@@ -1,12 +1,14 @@
 ---
 title: "Video Introduction"
-description: "The basics of computer vision."
+description: "A nice video that introduces the basics of computer vision."
 categories: [Videos, Resources, Introduction, Applications]
-image: SciFi.png
+image: vidintro.png
 author: "Barrie Robison"
 date: "10-13-2023"
 
 ---
+
+![](vidintro.png)
 
 How to introduce the basics of computer vision in an efficient and engaging way?  These days, any lecture we could put together would be re-inventing the wheel.  Instead, we are going to watch a video!
 
@@ -18,7 +20,7 @@ That being said, it is important to understand its source.  The company that mad
 
 ## Things to ponder
 
-As you watch the video, conder the following for additional discussion:
+As you watch the video, consider the following for additional discussion:
 
 1. What examples (if any) are closest to applications related to your own research?
 2. What concepts are still confusing or were not addressed in enough detail?

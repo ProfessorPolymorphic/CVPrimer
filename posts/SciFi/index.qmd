@@ -2,6 +2,8 @@
 title: "Science Fiction predictions of computer vision."
 description: "Science fiction films have long been a medium for exploring the potential (and often dystopian) applications of emerging technologies, including computer vision."
 categories: [Videos, Resources, Introduction, Applications]
+author: "Barrie Robison"
+date: "10-10-2023"
 image: SciFi.png
 ---
 

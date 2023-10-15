@@ -10,7 +10,12 @@ about:
 
 ---
 
-This website was created to support the Computer Vision for Beginners session of the University of Idaho's Symposium on AI Based Computer Vision.
+![](IIDS-Logo-horizontal.png)
+
+
+This website was created to support the Computer Vision for Beginners session of the [University of Idaho's Symposium on AI Based Computer Vision](https://www.iids.uidaho.edu/registration.php?eid=644afde5a6608).
+
+
 
 ## Instructors and Contributors
 
@@ -19,8 +24,11 @@ Professor and Chair, Department of Computer Science
 
 ### Barrie Robison
 Professor, Department of Biological Sciences
-Director, Institute for Interdisciplinary Data Sciences
+Director, [Institute for Interdisciplinary Data Sciences](https://www.iids.uidaho.edu/index.php)
 
 ### Luke Sheneman
 Director, Research Computing and Data Services
+
+
+
 

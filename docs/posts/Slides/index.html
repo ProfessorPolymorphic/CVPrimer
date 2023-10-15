@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Barrie Robison">
+<meta name="dcterms.date" content="2023-10-06">
 
-<title>Computer Vision for Beginners – index</title>
+<title>Computer Vision for Beginners - AI based Computer Vision</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -97,7 +99,42 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">AI based Computer Vision</h1>
+            <p class="subtitle lead">Expanding beyond the introductory video…</p>
+                                <div class="quarto-categories">
+                <div class="quarto-category">Neural Netrworks</div>
+                <div class="quarto-category">Applications</div>
+                <div class="quarto-category">Training</div>
+                <div class="quarto-category">Data</div>
+              </div>
+                  </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      <div>
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-contents">
+               <p>Barrie Robison </p>
+            </div>
+    </div>
+      
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">October 6, 2023</p>
+      </div>
+    </div>
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     
@@ -106,85 +143,15 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<p>https://youtu.be/oGvHtpJMO3M?si=3WZfUmzkbGXX7op8</p>
-<section id="history-of-computer-vision" class="level2">
-<h2 class="anchored" data-anchor-id="history-of-computer-vision">History of Computer Vision</h2>
-<p>Hopefully this will be quick and not boring.</p>
+
+<p><img src="vidcat.png" class="img-fluid"></p>
+<section id="a-deeper-dive" class="level2">
+<h2 class="anchored" data-anchor-id="a-deeper-dive">A Deeper Dive</h2>
+<p>The <a href="../../posts/IntroVid/index.html">Introductory Video</a> was great, but we need to expand on a few core concepts. We assume that most participants in this session are primarily interested in how computer vision might be used in their own research. With that in mind, we plan to expand on the following areas:</p>
 </section>
-<section id="early-beginnings-1960s" class="level2">
-<h2 class="anchored" data-anchor-id="early-beginnings-1960s">1. <strong>Early Beginnings (1960s):</strong></h2>
-<ul>
-<li><strong>Origins:</strong> Computer vision as a field began in the 1960s with the vision of teaching machines to “see.”</li>
-<li><strong>Seminal Work:</strong> Larry Roberts’ 1963 MIT PhD thesis, “Machine Perception of Three-Dimensional Solids,” laid the groundwork by outlining the processes to extract 3D geometric structures from 2D images.</li>
-<li><strong>Challenges:</strong> Initial optimism waned as researchers encountered the inherent complexity of interpreting the wide variety of visual data in real-world images.</li>
-</ul>
-</section>
-<section id="s---symbolic-era" class="level2">
-<h2 class="anchored" data-anchor-id="s---symbolic-era">2. <strong>1970s - Symbolic Era:</strong></h2>
-<ul>
-<li><strong>Approach:</strong> The main idea was to transform raw data into symbolic information which could be interpreted in a rule-based manner.</li>
-<li><strong>Key Concepts:</strong> Edge detection and extracting features like corners and lines became central. The “Generalized Cylinder” was proposed as a method to represent objects.</li>
-<li><strong>Notable Methods:</strong> The development of the Canny edge detector and the Hough transform.</li>
-</ul>
-</section>
-<section id="s---knowledge-based-era" class="level2">
-<h2 class="anchored" data-anchor-id="s---knowledge-based-era">3. <strong>1980s - Knowledge-Based Era:</strong></h2>
-<ul>
-<li><strong>Approach:</strong> Shift towards integrating domain-specific knowledge into vision algorithms. These methods involved more explicit modeling of objects.</li>
-<li><strong>Challenges:</strong> While these models were powerful, they were also brittle, failing when assumptions about the scene or object were violated.</li>
-</ul>
-</section>
-<section id="s---data-driven-era" class="level2">
-<h2 class="anchored" data-anchor-id="s---data-driven-era">4. <strong>1990s - Data-Driven Era:</strong></h2>
-<ul>
-<li><strong>Approach:</strong> Emphasis on learning directly from data, moving away from hard-coded rules.</li>
-<li><strong>Key Development:</strong> The advent of machine learning techniques, especially the beginning of neural networks.</li>
-<li><strong>Achievements:</strong> Face detection algorithms like the Viola-Jones detector, which could operate in real-time, were developed.</li>
-</ul>
-</section>
-<section id="s---rise-of-machine-learning" class="level2">
-<h2 class="anchored" data-anchor-id="s---rise-of-machine-learning">5. <strong>2000s - Rise of Machine Learning:</strong></h2>
-<ul>
-<li><strong>Driving Factor:</strong> Increased computational power and the availability of large datasets.</li>
-<li><strong>Key Achievements:</strong> The development and popularization of Scale-Invariant Feature Transform (SIFT) and Speeded-Up Robust Features (SURF) for object recognition.</li>
-<li><strong>Shift:</strong> Towards the end of the decade, researchers started revisiting neural networks, but now with much larger datasets and more computational power.</li>
-</ul>
-</section>
-<section id="s---deep-learning-revolution" class="level2">
-<h2 class="anchored" data-anchor-id="s---deep-learning-revolution">6. <strong>2010s - Deep Learning Revolution:</strong></h2>
-<ul>
-<li><strong>Pivotal Moment:</strong> In 2012, AlexNet, a deep convolutional neural network, significantly outperformed other methods in the ImageNet competition.</li>
-<li><strong>Dominance of Deep Learning:</strong> CNN architectures like ResNet, VGG, and GoogleNet set new standards in various computer vision tasks.</li>
-<li><strong>Expansion of Applications:</strong> Computer vision technologies started making their way into numerous applications from healthcare to autonomous driving.</li>
-<li><strong>Datasets:</strong> Emergence of large labeled datasets like MS COCO, ImageNet, and Open Images played a vital role in training sophisticated models.</li>
-</ul>
-</section>
-<section id="s-and-beyond" class="level2">
-<h2 class="anchored" data-anchor-id="s-and-beyond">7. <strong>2020s and Beyond:</strong></h2>
-<ul>
-<li><strong>Beyond Deep Learning:</strong> Exploration of hybrid models and unsupervised learning methods.</li>
-<li><strong>Ethical and Fairness Concerns:</strong> Growing awareness of the biases in AI models and the ethical implications of computer vision technologies.</li>
-<li><strong>Future Directions:</strong> Transformers in vision, neuro-symbolic approaches, and low-shot or few-shot learning.</li>
-</ul>
-</section>
-<section id="application-areas" class="level2">
-<h2 class="anchored" data-anchor-id="application-areas">Application Areas</h2>
-<p>This should be cool! https://findxkcd.com/?xkcd%5Bquery%5D=Artificial%20Intelligence&amp;xkcd%5Bpage%5D=2</p>
-<p>https://blog.roboflow.com/gpt-4-vision/?utm_campaign=Newsletter+%232+%289%2F28%2F2023+-+%5BGPT-4V%5D%29&amp;utm_content=Newsletter+-+9%2F28%2F2023+-+%5BGPT-4V%5D&amp;utm_medium=email_action&amp;utm_source=email</p>
-</section>
-<section id="introduction-to-computer-vision" class="level2">
-<h2 class="anchored" data-anchor-id="introduction-to-computer-vision">Introduction to Computer Vision</h2>
-<section id="what-is-computer-vision" class="level3">
-<h3 class="anchored" data-anchor-id="what-is-computer-vision">What is Computer Vision?</h3>
-<ul>
-<li>Goal: Understanding content of videos and images.</li>
-<li>Subset of AI and deep learning.</li>
-<li>Uses Convolutional Neural Networks (CNNs).</li>
-</ul>
-</section>
-</section>
-<section id="cnns-in-action" class="level2">
-<h2 class="anchored" data-anchor-id="cnns-in-action">CNNs in Action</h2>
+<section id="convolutionarl-neural-networks" class="level2">
+<h2 class="anchored" data-anchor-id="convolutionarl-neural-networks">Convolutionarl Neural Networks</h2>
+<p>How do CNNs actually work? What are the good at? What are their limitations?</p>
 <section id="segmentation" class="level3">
 <h3 class="anchored" data-anchor-id="segmentation">Segmentation</h3>
 <ul>
@@ -207,22 +174,27 @@ ul.task-list li input[type="checkbox"] {
 </ul>
 </section>
 </section>
-<section id="why-computer-vision-matters" class="level2">
-<h2 class="anchored" data-anchor-id="why-computer-vision-matters">Why Computer Vision Matters</h2>
-<ul>
-<li>Used in various industries: sports, automotive, agriculture, etc.</li>
-<li>CNNs: The new “eyes” for many technologies.</li>
-<li>Greater accuracy and speed than humans in many tasks.</li>
-<li>Expected market growth: 47% annually through 2023.</li>
-</ul>
+<section id="existing-libraries-and-algorithms" class="level2">
+<h2 class="anchored" data-anchor-id="existing-libraries-and-algorithms">Existing Libraries and Algorithms</h2>
+<p>You don’t have to program a CV algorthim from scratch. There are many open source libraries and packages that have already been developed. Often, these tools can serve as the basis for your specific applicatio with a small amount of tweaking.</p>
 </section>
-<section id="working-of-computer-vision" class="level2">
-<h2 class="anchored" data-anchor-id="working-of-computer-vision">Working of Computer Vision</h2>
+<section id="training-models" class="level2">
+<h2 class="anchored" data-anchor-id="training-models">Training Models</h2>
+<p>What types of data are used to train CV models? Where do the data come from?</p>
+</section>
+<section id="hardware-requirements" class="level2">
+<h2 class="anchored" data-anchor-id="hardware-requirements">Hardware Requirements</h2>
+<p>Hardware requirements for training and model development.</p>
+<section id="accelerating-cnns-with-gpus" class="level3">
+<h3 class="anchored" data-anchor-id="accelerating-cnns-with-gpus">Accelerating CNNs with GPUs</h3>
 <ul>
-<li>Analyzes images and creates numerical representations.</li>
-<li>Uses convolutional layers to filter information.</li>
-<li>Adjusts automatically based on the task.</li>
+<li>Difference between CPU and GPU.</li>
+<li>Neural nets are highly parallel, suitable for GPUs.</li>
+<li>GPUs accelerate vision operations, leaving CPUs for other tasks.</li>
 </ul>
+<p>Hardware requirements for deployment.</p>
+<p>Resources at the University of Idaho.</p>
+</section>
 </section>
 <section id="industry-use-cases" class="level2">
 <h2 class="anchored" data-anchor-id="industry-use-cases">Industry Use Cases</h2>
@@ -246,22 +218,6 @@ ul.task-list li input[type="checkbox"] {
 <li>Optical sorting in agriculture.</li>
 </ul>
 </section>
-</section>
-<section id="role-of-data-scientists" class="level2">
-<h2 class="anchored" data-anchor-id="role-of-data-scientists">Role of Data Scientists</h2>
-<ul>
-<li>Python: Popular language for ML.</li>
-<li>Data mining and data analysis.</li>
-<li>Extract information from images and videos.</li>
-</ul>
-</section>
-<section id="accelerating-cnns-with-gpus" class="level2">
-<h2 class="anchored" data-anchor-id="accelerating-cnns-with-gpus">Accelerating CNNs with GPUs</h2>
-<ul>
-<li>Difference between CPU and GPU.</li>
-<li>Neural nets are highly parallel, suitable for GPUs.</li>
-<li>GPUs accelerate vision operations, leaving CPUs for other tasks.</li>
-</ul>
 </section>
 <section id="computer-vision-4u" class="level2">
 <h2 class="anchored" data-anchor-id="computer-vision-4u">Computer Vision 4U</h2>

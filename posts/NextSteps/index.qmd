@@ -3,7 +3,7 @@ title: "Next Steps"
 description: "Some logical next steps and resources to further explore."
 author: "Barrie Robison"
 date: "2023-09-20"
-categories: [reference material, additional resources]
+categories: [Resources]
 image: "abstractcomputevision2.png"
 ---
 

@@ -42,128 +42,51 @@
     "text": "Other Examples\nAccording to GPT-4, other examples include:\n\nBlade Runner (1982) & Blade Runner 2049 (2017)\n\nTech Highlight: Retinal scanning and facial recognition.\nIn the Blade Runner universe, replicants (bioengineered beings) are identified through detailed eye examinations. This tech resembles modern-day retinal scanning.\n\nA.I. Artificial Intelligence (2001)\n\nTech Highlight: Facial recognition and emotion detection.\nRobots in this Spielberg film use advanced computer vision to recognize and interpret human facial expressions, aiding in their human-like interactions.\n\nEx Machina (2014)\n\nTech Highlight: Machine vision for robot-human interaction.\nThe humanoid robot, Ava, uses advanced computer vision to understand her surroundings and interact with the human protagonist.\n\nIron Man Series\n\nTech Highlight: Augmented reality (AR) and object tracking.\nTony Stark’s helmet provides a heads-up display (HUD) with real-time data about his surroundings, made possible by advanced computer vision.\n\nEagle Eye (2008)\n\nTech Highlight: Ubiquitous surveillance.\nThe film showcases a superintelligent computer system that uses cameras everywhere to track and manipulate the protagonists.\n\nWALL·E (2008)\n\nTech Highlight: Object recognition and interaction.\nThe titular robot uses computer vision to recognize and categorize trash, and later to interact with other robots and objects.\n\nGhost in the Shell (1995 & 2017)\n\nTech Highlight: Cyborg vision and hacking optics.\nThe protagonist, Major, sees the world with augmented visuals, tracking persons of interest and accessing digital data overlays."
   },
   {
-    "objectID": "posts/Slides/index.html",
-    "href": "posts/Slides/index.html",
-    "title": "Computer Vision for Beginners",
-    "section": "",
-    "text": "https://youtu.be/oGvHtpJMO3M?si=3WZfUmzkbGXX7op8"
+    "objectID": "posts/Slides/index.html#a-deeper-dive",
+    "href": "posts/Slides/index.html#a-deeper-dive",
+    "title": "AI based Computer Vision",
+    "section": "A Deeper Dive",
+    "text": "A Deeper Dive\nThe Introductory Video was great, but we need to expand on a few core concepts. We assume that most participants in this session are primarily interested in how computer vision might be used in their own research. With that in mind, we plan to expand on the following areas:"
   },
   {
-    "objectID": "posts/Slides/index.html#history-of-computer-vision",
-    "href": "posts/Slides/index.html#history-of-computer-vision",
-    "title": "Computer Vision for Beginners",
-    "section": "History of Computer Vision",
-    "text": "History of Computer Vision\nHopefully this will be quick and not boring."
+    "objectID": "posts/Slides/index.html#convolutionarl-neural-networks",
+    "href": "posts/Slides/index.html#convolutionarl-neural-networks",
+    "title": "AI based Computer Vision",
+    "section": "Convolutionarl Neural Networks",
+    "text": "Convolutionarl Neural Networks\nHow do CNNs actually work? What are the good at? What are their limitations?\n\nSegmentation\n\nClassifying pixels (car, road, pedestrian).\nUsed in self-driving vehicles.\n\n\n\nClassification\n\nDetermine what’s in an image.\nDifferentiates between dogs, cats, etc.\n\n\n\nDetection\n\nLocalizes objects in images.\nPlaces bounding boxes around detected objects."
   },
   {
-    "objectID": "posts/Slides/index.html#early-beginnings-1960s",
-    "href": "posts/Slides/index.html#early-beginnings-1960s",
-    "title": "Computer Vision for Beginners",
-    "section": "1. Early Beginnings (1960s):",
-    "text": "1. Early Beginnings (1960s):\n\nOrigins: Computer vision as a field began in the 1960s with the vision of teaching machines to “see.”\nSeminal Work: Larry Roberts’ 1963 MIT PhD thesis, “Machine Perception of Three-Dimensional Solids,” laid the groundwork by outlining the processes to extract 3D geometric structures from 2D images.\nChallenges: Initial optimism waned as researchers encountered the inherent complexity of interpreting the wide variety of visual data in real-world images."
+    "objectID": "posts/Slides/index.html#existing-libraries-and-algorithms",
+    "href": "posts/Slides/index.html#existing-libraries-and-algorithms",
+    "title": "AI based Computer Vision",
+    "section": "Existing Libraries and Algorithms",
+    "text": "Existing Libraries and Algorithms\nYou don’t have to program a CV algorthim from scratch. There are many open source libraries and packages that have already been developed. Often, these tools can serve as the basis for your specific applicatio with a small amount of tweaking."
   },
   {
-    "objectID": "posts/Slides/index.html#s---symbolic-era",
-    "href": "posts/Slides/index.html#s---symbolic-era",
-    "title": "Computer Vision for Beginners",
-    "section": "2. 1970s - Symbolic Era:",
-    "text": "2. 1970s - Symbolic Era:\n\nApproach: The main idea was to transform raw data into symbolic information which could be interpreted in a rule-based manner.\nKey Concepts: Edge detection and extracting features like corners and lines became central. The “Generalized Cylinder” was proposed as a method to represent objects.\nNotable Methods: The development of the Canny edge detector and the Hough transform."
+    "objectID": "posts/Slides/index.html#training-models",
+    "href": "posts/Slides/index.html#training-models",
+    "title": "AI based Computer Vision",
+    "section": "Training Models",
+    "text": "Training Models\nWhat types of data are used to train CV models? Where do the data come from?"
   },
   {
-    "objectID": "posts/Slides/index.html#s---knowledge-based-era",
-    "href": "posts/Slides/index.html#s---knowledge-based-era",
-    "title": "Computer Vision for Beginners",
-    "section": "3. 1980s - Knowledge-Based Era:",
-    "text": "3. 1980s - Knowledge-Based Era:\n\nApproach: Shift towards integrating domain-specific knowledge into vision algorithms. These methods involved more explicit modeling of objects.\nChallenges: While these models were powerful, they were also brittle, failing when assumptions about the scene or object were violated."
-  },
-  {
-    "objectID": "posts/Slides/index.html#s---data-driven-era",
-    "href": "posts/Slides/index.html#s---data-driven-era",
-    "title": "Computer Vision for Beginners",
-    "section": "4. 1990s - Data-Driven Era:",
-    "text": "4. 1990s - Data-Driven Era:\n\nApproach: Emphasis on learning directly from data, moving away from hard-coded rules.\nKey Development: The advent of machine learning techniques, especially the beginning of neural networks.\nAchievements: Face detection algorithms like the Viola-Jones detector, which could operate in real-time, were developed."
-  },
-  {
-    "objectID": "posts/Slides/index.html#s---rise-of-machine-learning",
-    "href": "posts/Slides/index.html#s---rise-of-machine-learning",
-    "title": "Computer Vision for Beginners",
-    "section": "5. 2000s - Rise of Machine Learning:",
-    "text": "5. 2000s - Rise of Machine Learning:\n\nDriving Factor: Increased computational power and the availability of large datasets.\nKey Achievements: The development and popularization of Scale-Invariant Feature Transform (SIFT) and Speeded-Up Robust Features (SURF) for object recognition.\nShift: Towards the end of the decade, researchers started revisiting neural networks, but now with much larger datasets and more computational power."
-  },
-  {
-    "objectID": "posts/Slides/index.html#s---deep-learning-revolution",
-    "href": "posts/Slides/index.html#s---deep-learning-revolution",
-    "title": "Computer Vision for Beginners",
-    "section": "6. 2010s - Deep Learning Revolution:",
-    "text": "6. 2010s - Deep Learning Revolution:\n\nPivotal Moment: In 2012, AlexNet, a deep convolutional neural network, significantly outperformed other methods in the ImageNet competition.\nDominance of Deep Learning: CNN architectures like ResNet, VGG, and GoogleNet set new standards in various computer vision tasks.\nExpansion of Applications: Computer vision technologies started making their way into numerous applications from healthcare to autonomous driving.\nDatasets: Emergence of large labeled datasets like MS COCO, ImageNet, and Open Images played a vital role in training sophisticated models."
-  },
-  {
-    "objectID": "posts/Slides/index.html#s-and-beyond",
-    "href": "posts/Slides/index.html#s-and-beyond",
-    "title": "Computer Vision for Beginners",
-    "section": "7. 2020s and Beyond:",
-    "text": "7. 2020s and Beyond:\n\nBeyond Deep Learning: Exploration of hybrid models and unsupervised learning methods.\nEthical and Fairness Concerns: Growing awareness of the biases in AI models and the ethical implications of computer vision technologies.\nFuture Directions: Transformers in vision, neuro-symbolic approaches, and low-shot or few-shot learning."
-  },
-  {
-    "objectID": "posts/Slides/index.html#application-areas",
-    "href": "posts/Slides/index.html#application-areas",
-    "title": "Computer Vision for Beginners",
-    "section": "Application Areas",
-    "text": "Application Areas\nThis should be cool! https://findxkcd.com/?xkcd%5Bquery%5D=Artificial%20Intelligence&xkcd%5Bpage%5D=2\nhttps://blog.roboflow.com/gpt-4-vision/?utm_campaign=Newsletter+%232+%289%2F28%2F2023+-+%5BGPT-4V%5D%29&utm_content=Newsletter+-+9%2F28%2F2023+-+%5BGPT-4V%5D&utm_medium=email_action&utm_source=email"
-  },
-  {
-    "objectID": "posts/Slides/index.html#introduction-to-computer-vision",
-    "href": "posts/Slides/index.html#introduction-to-computer-vision",
-    "title": "Computer Vision for Beginners",
-    "section": "Introduction to Computer Vision",
-    "text": "Introduction to Computer Vision\n\nWhat is Computer Vision?\n\nGoal: Understanding content of videos and images.\nSubset of AI and deep learning.\nUses Convolutional Neural Networks (CNNs)."
-  },
-  {
-    "objectID": "posts/Slides/index.html#cnns-in-action",
-    "href": "posts/Slides/index.html#cnns-in-action",
-    "title": "Computer Vision for Beginners",
-    "section": "CNNs in Action",
-    "text": "CNNs in Action\n\nSegmentation\n\nClassifying pixels (car, road, pedestrian).\nUsed in self-driving vehicles.\n\n\n\nClassification\n\nDetermine what’s in an image.\nDifferentiates between dogs, cats, etc.\n\n\n\nDetection\n\nLocalizes objects in images.\nPlaces bounding boxes around detected objects."
-  },
-  {
-    "objectID": "posts/Slides/index.html#why-computer-vision-matters",
-    "href": "posts/Slides/index.html#why-computer-vision-matters",
-    "title": "Computer Vision for Beginners",
-    "section": "Why Computer Vision Matters",
-    "text": "Why Computer Vision Matters\n\nUsed in various industries: sports, automotive, agriculture, etc.\nCNNs: The new “eyes” for many technologies.\nGreater accuracy and speed than humans in many tasks.\nExpected market growth: 47% annually through 2023."
-  },
-  {
-    "objectID": "posts/Slides/index.html#working-of-computer-vision",
-    "href": "posts/Slides/index.html#working-of-computer-vision",
-    "title": "Computer Vision for Beginners",
-    "section": "Working of Computer Vision",
-    "text": "Working of Computer Vision\n\nAnalyzes images and creates numerical representations.\nUses convolutional layers to filter information.\nAdjusts automatically based on the task."
+    "objectID": "posts/Slides/index.html#hardware-requirements",
+    "href": "posts/Slides/index.html#hardware-requirements",
+    "title": "AI based Computer Vision",
+    "section": "Hardware Requirements",
+    "text": "Hardware Requirements\nHardware requirements for training and model development.\n\nAccelerating CNNs with GPUs\n\nDifference between CPU and GPU.\nNeural nets are highly parallel, suitable for GPUs.\nGPUs accelerate vision operations, leaving CPUs for other tasks.\n\nHardware requirements for deployment.\nResources at the University of Idaho."
   },
   {
     "objectID": "posts/Slides/index.html#industry-use-cases",
     "href": "posts/Slides/index.html#industry-use-cases",
-    "title": "Computer Vision for Beginners",
+    "title": "AI based Computer Vision",
     "section": "Industry Use Cases",
     "text": "Industry Use Cases\n\nMedicine\n\nSpeedy extraction of vital image data.\nDetection of tumors, artery issues.\n\n\n\nAutonomous Vehicles\n\nWarning systems and autonomous operations.\n\n\n\nIndustrial Uses\n\nQuality control and defect inspection.\nOptical sorting in agriculture."
   },
   {
-    "objectID": "posts/Slides/index.html#role-of-data-scientists",
-    "href": "posts/Slides/index.html#role-of-data-scientists",
-    "title": "Computer Vision for Beginners",
-    "section": "Role of Data Scientists",
-    "text": "Role of Data Scientists\n\nPython: Popular language for ML.\nData mining and data analysis.\nExtract information from images and videos."
-  },
-  {
-    "objectID": "posts/Slides/index.html#accelerating-cnns-with-gpus",
-    "href": "posts/Slides/index.html#accelerating-cnns-with-gpus",
-    "title": "Computer Vision for Beginners",
-    "section": "Accelerating CNNs with GPUs",
-    "text": "Accelerating CNNs with GPUs\n\nDifference between CPU and GPU.\nNeural nets are highly parallel, suitable for GPUs.\nGPUs accelerate vision operations, leaving CPUs for other tasks."
-  },
-  {
     "objectID": "posts/Slides/index.html#computer-vision-4u",
     "href": "posts/Slides/index.html#computer-vision-4u",
-    "title": "Computer Vision for Beginners",
+    "title": "AI based Computer Vision",
     "section": "Computer Vision 4U",
     "text": "Computer Vision 4U\nWhat do I need to connect this technology to my research?\n\nUnderstand the nature of your data.\nUnderstand the nature of your task. (Segmentation, Classification, Detection, real time?)\nHow much training is required? How unique is your application?\nWhere will you get the training data?"
   },
@@ -179,7 +102,7 @@
     "href": "posts/IntroVid/index.html#things-to-ponder",
     "title": "Video Introduction",
     "section": "Things to ponder",
-    "text": "Things to ponder\nAs you watch the video, conder the following for additional discussion:\n\nWhat examples (if any) are closest to applications related to your own research?\nWhat concepts are still confusing or were not addressed in enough detail?\nWas anything misleading or overhyped?"
+    "text": "Things to ponder\nAs you watch the video, consider the following for additional discussion:\n\nWhat examples (if any) are closest to applications related to your own research?\nWhat concepts are still confusing or were not addressed in enough detail?\nWas anything misleading or overhyped?"
   },
   {
     "objectID": "posts/IntroVid/index.html#how-computer-vision-works",
@@ -193,21 +116,77 @@
     "href": "posts/SessionOutline/index.html",
     "title": "Topic Outline",
     "section": "",
-    "text": "Brief history of computer vision and its evolution with AI.\nWhy it matters: Real-world impacts and potential applications across various domains.\n\n\n\n\n\nDefining computer vision: The process by which machines “see” and interpret images.\nKey components: Sensors (cameras), processing units, algorithms.\nDifference between traditional image processing and AI-based computer vision.\n\n\n\n\n\nBrief overview of what neural networks are, focusing on Convolutional Neural Networks (CNNs).\nExplain how deep learning has revolutionized computer vision tasks.\nShow simple visual examples to demonstrate how layers in a CNN can detect patterns and features (like edges, textures, and objects).\n\n\n\n\n\nImage classification: Assigning labels to images.\nObject detection: Identifying and locating objects in images.\nSemantic segmentation: Assigning a label to every pixel in an image, i.e., determining which pixels belong to which object.\nFacial recognition, pose estimation, and more.\nShowcase real-life examples and applications for each capability.\n\n\n\n\n\nLimitations of current AI models: biases, overfitting, adversarial attacks, and data requirements.\nEthical concerns: Privacy, misuse (surveillance, deepfakes), and decision-making accountability.\nEmphasize the importance of understanding these challenges, especially for researchers wanting to incorporate these technologies into their work.\n\n\n\n\n\nEmerging technologies and methods: Transformers in vision, unsupervised learning, and hybrid models.\nPotential applications: Augmented reality, advanced healthcare imaging, and environmental monitoring.\nEncouraging researchers to imagine the applications in their own fields.\n\n\n\n\n\nAllow participants to ask questions and discuss potential applications to their respective research areas.\nProvide resources for further learning.\n\nhttps://www.nvidia.com/en-us/glossary/data-science/computer-vision/"
+    "text": "CV as imagined in Science Fiction.\nIntroductory Video.\n\n\n\n\n\nDefining computer vision: The process by which machines “see” and interpret images.\nKey components: Sensors (cameras), processing units, algorithms.\nDifference between traditional image processing and AI-based computer vision.\n\n\n\n\n\nBrief overview of what neural networks are, focusing on Convolutional Neural Networks (CNNs).\nExplain how deep learning has revolutionized computer vision tasks.\nShow simple visual examples to demonstrate how layers in a CNN can detect patterns and features (like edges, textures, and objects).\n\n\n\n\n\nImage classification: Assigning labels to images.\nObject detection: Identifying and locating objects in images.\nSemantic segmentation: Assigning a label to every pixel in an image, i.e., determining which pixels belong to which object.\nFacial recognition, pose estimation, and more.\nShowcase real-life examples and applications for each capability.\n\n\n\n\n\nLimitations of current AI models: biases, overfitting, adversarial attacks, and data requirements.\nEthical concerns: Privacy, misuse (surveillance, deepfakes), and decision-making accountability.\nEmphasize the importance of understanding these challenges, especially for researchers wanting to incorporate these technologies into their work.\n\n\n\n\n\nEmerging technologies and methods: Transformers in vision, unsupervised learning, and hybrid models.\nPotential applications: Augmented reality, advanced healthcare imaging, and environmental monitoring.\nEncouraging researchers to imagine the applications in their own fields.\n\n\n\n\n\nAllow participants to ask questions and discuss potential applications to their respective research areas.\nProvide resources for further learning.\n\nhttps://www.nvidia.com/en-us/glossary/data-science/computer-vision/"
+  },
+  {
+    "objectID": "posts/History/index.html",
+    "href": "posts/History/index.html",
+    "title": "Brief History of Computer Vision",
+    "section": "",
+    "text": "Artificial Intelligence has been around for a long time, and the idea of teaching computers to “see” existed as early as the 1960s. The progression of computer vision since then hasn’t been exactly continuous, featuring several “jumps” related to new technologies and algorithms."
+  },
+  {
+    "objectID": "posts/History/index.html#early-beginnings-1960s",
+    "href": "posts/History/index.html#early-beginnings-1960s",
+    "title": "Brief History of Computer Vision",
+    "section": "1. Early Beginnings (1960s):",
+    "text": "1. Early Beginnings (1960s):\n\nOrigins: Computer vision as a field began in the 1960s with the vision of teaching machines to “see.”\nSeminal Work: Larry Roberts’ 1963 MIT PhD thesis, “Machine Perception of Three-Dimensional Solids,” laid the groundwork by outlining the processes to extract 3D geometric structures from 2D images.\nChallenges: Initial optimism waned as researchers encountered the inherent complexity of interpreting the wide variety of visual data in real-world images."
+  },
+  {
+    "objectID": "posts/History/index.html#s---symbolic-era",
+    "href": "posts/History/index.html#s---symbolic-era",
+    "title": "Brief History of Computer Vision",
+    "section": "2. 1970s - Symbolic Era:",
+    "text": "2. 1970s - Symbolic Era:\n\nApproach: The main idea was to transform raw data into symbolic information which could be interpreted in a rule-based manner.\nKey Concepts: Edge detection and extracting features like corners and lines became central. The “Generalized Cylinder” was proposed as a method to represent objects.\nNotable Methods: The development of the Canny edge detector and the Hough transform."
+  },
+  {
+    "objectID": "posts/History/index.html#s---knowledge-based-era",
+    "href": "posts/History/index.html#s---knowledge-based-era",
+    "title": "Brief History of Computer Vision",
+    "section": "3. 1980s - Knowledge-Based Era:",
+    "text": "3. 1980s - Knowledge-Based Era:\n\nApproach: Shift towards integrating domain-specific knowledge into vision algorithms. These methods involved more explicit modeling of objects.\nChallenges: While these models were powerful, they were also brittle, failing when assumptions about the scene or object were violated."
+  },
+  {
+    "objectID": "posts/History/index.html#s---data-driven-era",
+    "href": "posts/History/index.html#s---data-driven-era",
+    "title": "Brief History of Computer Vision",
+    "section": "4. 1990s - Data-Driven Era:",
+    "text": "4. 1990s - Data-Driven Era:\n\nApproach: Emphasis on learning directly from data, moving away from hard-coded rules.\nKey Development: The advent of machine learning techniques, especially the beginning of neural networks.\nAchievements: Face detection algorithms like the Viola-Jones detector, which could operate in real-time, were developed."
+  },
+  {
+    "objectID": "posts/History/index.html#s---rise-of-machine-learning",
+    "href": "posts/History/index.html#s---rise-of-machine-learning",
+    "title": "Brief History of Computer Vision",
+    "section": "5. 2000s - Rise of Machine Learning:",
+    "text": "5. 2000s - Rise of Machine Learning:\n\nDriving Factor: Increased computational power and the availability of large datasets.\nKey Achievements: The development and popularization of Scale-Invariant Feature Transform (SIFT) and Speeded-Up Robust Features (SURF) for object recognition.\nShift: Towards the end of the decade, researchers started revisiting neural networks, but now with much larger datasets and more computational power."
+  },
+  {
+    "objectID": "posts/History/index.html#s---deep-learning-revolution",
+    "href": "posts/History/index.html#s---deep-learning-revolution",
+    "title": "Brief History of Computer Vision",
+    "section": "6. 2010s - Deep Learning Revolution:",
+    "text": "6. 2010s - Deep Learning Revolution:\n\nPivotal Moment: In 2012, AlexNet, a deep convolutional neural network, significantly outperformed other methods in the ImageNet competition.\nDominance of Deep Learning: CNN architectures like ResNet, VGG, and GoogleNet set new standards in various computer vision tasks.\nExpansion of Applications: Computer vision technologies started making their way into numerous applications from healthcare to autonomous driving.\nDatasets: Emergence of large labeled datasets like MS COCO, ImageNet, and Open Images played a vital role in training sophisticated models."
+  },
+  {
+    "objectID": "posts/History/index.html#s-and-beyond",
+    "href": "posts/History/index.html#s-and-beyond",
+    "title": "Brief History of Computer Vision",
+    "section": "7. 2020s and Beyond:",
+    "text": "7. 2020s and Beyond:\n\nBeyond Deep Learning: Exploration of hybrid models and unsupervised learning methods.\nEthical and Fairness Concerns: Growing awareness of the biases in AI models and the ethical implications of computer vision technologies.\nFuture Directions: Transformers in vision, neuro-symbolic approaches, and low-shot or few-shot learning."
   },
   {
     "objectID": "posts/Vocabulary/index.html",
     "href": "posts/Vocabulary/index.html",
     "title": "Vocabulary Cheat Sheet",
     "section": "",
-    "text": "Computer Vision: The field of study that enables machines to interpret and make decisions based on visual data (images, videos).\nImage Processing: Techniques to manipulate images to enhance or extract information.\nDeep Learning: A subset of machine learning using neural networks with many layers (deep architectures) to analyze various factors of data.\n\n\n\n\n\nNeural Network: A computational model inspired by the structure of biological neural networks. Used for pattern recognition and learning.\nConvolutional Neural Network (CNN): A type of deep learning algorithm specifically designed for processing structured grid data, such as images.\nActivation Function: A mathematical function applied to a neuron’s output, determining the neuron’s output signal.\nFeature Map: The output of one filter applied over the entire input image in a convolutional layer.\nPooling: A technique in CNNs to down-sample the spatial dimensions of data, retaining important information.\nTransformer Architectures: A type of deep learning model primarily used for sequence-to-sequence tasks but is seeing increasing adoption in computer vision.\n\n\n\n\n\nImage Classification: Determining the category of an object within an image.\nObject Detection: Identifying and locating multiple objects within an image.\nSemantic Segmentation: Classifying each pixel in an image to a specific category, determining which object it belongs to.\nPose Estimation: Determining the orientation or pose of a specific object or figure in an image or video.\n\n\n\n\n\nTransfer Learning: A technique where a pre-trained model (trained on a large dataset) is used as a starting point for a different, but related task.\nData Augmentation: Techniques to artificially increase the size of training datasets by applying various transformations (e.g., rotation, scaling).\nEdge Detection: Identifying points in an image where there’s a sudden change in brightness or color, useful for finding boundaries within objects.\nKernel:\n\n\n\n\n\nOverfitting: When an AI model is too closely tailored to the training data and performs poorly on new, unseen data.\nAdversarial Attack: A technique to fool AI models by slightly altering the input data, leading to incorrect outputs.\nBias (in AI): When an AI model produces results that are systematically prejudiced due to unfair algorithms or skewed input data.\n\n\n\n\n\nAugmented Reality (AR): A technology that superimposes computer-generated content on a user’s view of the real world."
+    "text": "Computer Vision: The field of study that enables machines to interpret and make decisions based on visual data (images, videos).\nImage Processing: Techniques to manipulate images to enhance or extract information.\nDeep Learning: A subset of machine learning using neural networks with many layers (deep architectures) to analyze various factors of data.\n\n\n\n\n\nNeural Network: A computational model inspired by the structure of biological neural networks. Used for pattern recognition and learning.\nConvolutional Neural Network (CNN): A type of deep learning algorithm specifically designed for processing structured grid data, such as images.\nActivation Function: A mathematical function applied to a neuron’s output, determining the neuron’s output signal.\nFeature Map: The output of one filter applied over the entire input image in a convolutional layer.\nPooling: A technique in CNNs to down-sample the spatial dimensions of data, retaining important information.\nTransformer Architectures: A type of deep learning model primarily used for sequence-to-sequence tasks but is seeing increasing adoption in computer vision.\n\n\n\n\n\nImage Classification: Determining the category of an object within an image.\nObject Detection: Identifying and locating multiple objects within an image.\nSemantic Segmentation: Classifying each pixel in an image to a specific category, determining which object it belongs to.\nPose Estimation: Determining the orientation or pose of a specific object or figure in an image or video.\n\n\n\n\n\nTransfer Learning: A technique where a pre-trained model (trained on a large dataset) is used as a starting point for a different, but related task.\nData Augmentation: Techniques to artificially increase the size of training datasets by applying various transformations (e.g., rotation, scaling).\nEdge Detection: Identifying points in an image where there’s a sudden change in brightness or color, useful for finding boundaries within objects.\nKernel: A small matrix used for image processing operations such as convolution. This matrix is used to apply effects like blurring, sharpening, edge detection, and other image transformations.\n\n\n\n\n\nOverfitting: When an AI model is too closely tailored to the training data and performs poorly on new, unseen data.\nAdversarial Attack: A technique to fool AI models by slightly altering the input data, leading to incorrect outputs.\nBias (in AI): When an AI model produces results that are systematically prejudiced due to unfair algorithms or skewed input data.\n\n\n\n\n\nAugmented Reality (AR): A technology that superimposes computer-generated content on a user’s view of the real world."
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Computer Vision Primer",
-    "section": "",
-    "text": "Some Directions!\n\n\n\n\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nScience Fiction predictions of computer vision.\n\n\n\nVideos\n\n\nResources\n\n\nIntroduction\n\n\nApplications\n\n\n\nScience fiction films have long been a medium for exploring the potential (and often dystopian) applications of emerging technologies, including computer vision.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\nHistory of Computer Vision\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nVideo Introduction\n\n\n\nVideos\n\n\nResources\n\n\nIntroduction\n\n\nApplications\n\n\n\nThe basics of computer vision.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNext Steps\n\n\n\nreference material\n\n\nadditional resources\n\n\n\nSome logical next steps and resources to further explore.\n\n\n\nBarrie Robison\n\n\nSep 20, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTopic Outline\n\n\n\nvocabulary\n\n\nreference material\n\n\n\nA brief summary of the major components of the primer session.\n\n\n\nBarrie Robison\n\n\nSep 20, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nVocabulary Cheat Sheet\n\n\n\nvocabulary\n\n\nreference material\n\n\n\nA handy reference where you can look up stuff like semantic segmentation.\n\n\n\nBarrie Robison\n\n\nSep 20, 2023\n\n\n\n\n\n\n\n\nNo matching items"
+    "objectID": "index.html#welcome",
+    "href": "index.html#welcome",
+    "title": "Computer Vision for Beginners",
+    "section": "WELCOME!",
+    "text": "WELCOME!\nWelcome to the interactive resources for the University of Idaho’s 2023 Symposium on AI Based Computer Vision. Below you will find a series of posts related to our session on Computer Vision for Beginners. The posts include the lecture slides as well as various support materials and resources.\nYou can use the sorting and filtering functions to find what you are looking for, as well as the handy list of categories along the right hand side."
   },
   {
     "objectID": "about.html",
