@@ -1,0 +1,26 @@
+---
+title: "Convolutional Neural Networks"
+description: "Hope you remember your linear algebra..."
+author: "Barrie Robison"
+date: "2023-09-20"
+categories: [Resources, Neural Networks, Training, Algorithms]
+image: cyberwoman3.png
+---
+
+## Convolutional Neural Networks
+
+How do CNNs actually work?  What are they good at?  What are their limitations?
+
+Terry will tell you all the answers!
+
+### Segmentation
+- Classifying pixels (car, road, pedestrian).
+- Used in self-driving vehicles.
+
+### Classification
+- Determine what's in an image.
+- Differentiates between dogs, cats, etc.
+
+### Detection
+- Localizes objects in images.
+- Places bounding boxes around detected objects.

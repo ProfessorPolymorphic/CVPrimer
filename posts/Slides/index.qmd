@@ -1,9 +1,9 @@
 ---
-title: "AI based Computer Vision"
+title: "A Deeper Dive"
 subtitle: "Expanding beyond the introductory video..."
 author: "Barrie Robison"
 date: "10-6-2023"
-categories: [Neural Netrworks, Applications, Training, Data]
+categories: [Neural Netrworks, Applications, Training, Data, Libraries, Algorithms, Hardware, Applications]
 ---
 
 
@@ -12,10 +12,12 @@ categories: [Neural Netrworks, Applications, Training, Data]
 
 ## A Deeper Dive
 
-The [Introductory Video](../IntroVid/index.qmd) was great, but we need to expand on a few core concepts.  We assume that most participants in this session are primarily interested in how computer vision might be used in their own research.  With that in mind, we plan to expand on the following areas:
+The [Introductory Video](../IntroVid/index.qmd) was great, but we need to expand on a few core concepts.  
+
+We assume that most participants in this session are primarily interested in how computer vision might be used in their own research.  With that in mind, we plan to expand on the following areas:
 
 
-## Convolutionarl Neural Networks
+## Convolutional Neural Networks
 
 How do CNNs actually work?  What are the good at?  What are their limitations?
 
@@ -33,7 +35,7 @@ How do CNNs actually work?  What are the good at?  What are their limitations?
 
 ## Existing Libraries and Algorithms
 
-You don't have to program a CV algorthim from scratch.  There are many open source libraries and packages that have already been developed.  Often, these tools can serve as the basis for your specific applicatio with a small amount of tweaking.
+You don't have to program a CV algorthm from scratch.  There are many open source libraries and packages that have already been developed.  Often, these tools can serve as the basis for your specific applicatio with a small amount of tweaking.
 
 ## Training Models
 
@@ -76,4 +78,8 @@ What do I need to connect this technology to my research?
 2. Understand the nature of your task. (Segmentation, Classification, Detection, real time?)
 3. How much training is required?  How unique is your application?
 4. Where will you get the training data?
+
+## Sources
+
+https://www.nvidia.com/en-us/glossary/data-science/computer-vision/
 

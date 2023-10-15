@@ -1,0 +1,10 @@
+---
+title: "Algorithms"
+subtitle: "Existing algorithms and libraries accessible to everyone..."
+author: "Barrie Robison"
+date: "10-6-2023"
+categories: [Neural Netrworks, Applications, Training, Data, Libraries, Algorithms]
+image: Algorithm.png
+---
+
+You don't have to program a CV algorithm from scratch.  There are many open source libraries and packages that have already been developed.  Often, these tools can serve as the basis for your specific applicatio with a small amount of tweaking.

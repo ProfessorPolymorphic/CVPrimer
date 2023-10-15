@@ -1,0 +1,22 @@
+---
+title: "Hardware"
+subtitle: "Required hardware for computer vision and associated resources at the UI. "
+author: "Barrie Robison"
+date: "10-6-2023"
+categories: [Hardware, Training, Data]
+image: Hardware.png
+---
+
+## Hardware Requirements
+
+Hardware requirements for training and model development.
+
+### Accelerating CNNs with GPUs
+
+- Difference between CPU and GPU.
+- Neural nets are highly parallel, suitable for GPUs.
+- GPUs accelerate vision operations, leaving CPUs for other tasks.
+
+Hardware requirements for deployment.
+
+Resources at the University of Idaho.

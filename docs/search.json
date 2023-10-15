@@ -1,10 +1,17 @@
 [
   {
-    "objectID": "posts/NextSteps/index.html",
-    "href": "posts/NextSteps/index.html",
-    "title": "Next Steps",
+    "objectID": "posts/Hardware/Hardware.html",
+    "href": "posts/Hardware/Hardware.html",
+    "title": "Hardware",
     "section": "",
-    "text": "Deep Dive Learning:\n\nOnline Courses: Recommend beginner-friendly online courses. Platforms like Coursera, edX, and Udacity offer comprehensive courses on AI and computer vision.\nBooks: Share a list of introductory books on AI and computer vision. For instance, “Deep Learning” by Ian Goodfellow, Yoshua Bengio, and Aaron Courville is an excellent resource.\n\nHands-on Experience:\n\nExperiment with Platforms: Encourage participants to try platforms like Google’s Teachable Machine, which offers a no-code introduction to machine learning and computer vision.\nWorkshops: Organize or recommend follow-up hands-on workshops where participants can get practical experience with computer vision tools and applications.\n\nNetworking:\n\nJoin Relevant Groups: Recommend local or online AI/Computer Vision communities, like Meetup groups or online forums, where they can discuss and share insights.\nAttend Conferences: While your symposium is a starting point, there are many AI and computer vision-focused conferences that can provide deeper insights and networking opportunities.\n\nResearch Collaborations:\n\nInterdisciplinary Collaborations: Encourage participants to explore collaborations within their institutions. Computer vision can be a tool for many fields, and interdisciplinary projects can yield fascinating results.\nReach out to Experts: If participants have specific queries or projects in mind, they could reach out to computer vision experts for guidance or collaboration.\n\nStay Updated:\n\nNewsletters and Blogs: Recommend popular AI and computer vision newsletters or blogs that provide updates on the latest research, tools, and trends.\nResearch Papers: Platforms like arXiv.org can be a source of the latest research papers, though it might be advanced for some participants.\n\nEthical Considerations:\n\nWorkshops on AI Ethics: Suggest attending workshops or courses that specifically deal with the ethics of AI, to understand potential biases, privacy concerns, and other ethical issues.\nGuidelines and Standards: Familiarize them with any existing guidelines or standards in the field of AI and computer vision ethics.\n\nExperiment with Tools and Libraries:\n\nPython Libraries: Introduce libraries like OpenCV, TensorFlow, and PyTorch as tools they can experiment with once they’re more comfortable with the basics.\n\n\nRemember, the aim is to empower participants to continue their journey in understanding and possibly integrating computer vision into their research. By providing clear takeaways and next steps, you’re giving them the tools and direction to do so."
+    "text": "Hardware requirements for training and model development.\n\n\n\nDifference between CPU and GPU.\nNeural nets are highly parallel, suitable for GPUs.\nGPUs accelerate vision operations, leaving CPUs for other tasks.\n\nHardware requirements for deployment.\nResources at the University of Idaho."
+  },
+  {
+    "objectID": "posts/CNNs/index.html",
+    "href": "posts/CNNs/index.html",
+    "title": "Convolutional Neural Networks",
+    "section": "",
+    "text": "How do CNNs actually work? What are they good at? What are their limitations?\nTerry will tell you all the answers!\n\n\n\nClassifying pixels (car, road, pedestrian).\nUsed in self-driving vehicles.\n\n\n\n\n\nDetermine what’s in an image.\nDifferentiates between dogs, cats, etc.\n\n\n\n\n\nLocalizes objects in images.\nPlaces bounding boxes around detected objects."
   },
   {
     "objectID": "posts/SciFi/index.html",
@@ -42,53 +49,67 @@
     "text": "Other Examples\nAccording to GPT-4, other examples include:\n\nBlade Runner (1982) & Blade Runner 2049 (2017)\n\nTech Highlight: Retinal scanning and facial recognition.\nIn the Blade Runner universe, replicants (bioengineered beings) are identified through detailed eye examinations. This tech resembles modern-day retinal scanning.\n\nA.I. Artificial Intelligence (2001)\n\nTech Highlight: Facial recognition and emotion detection.\nRobots in this Spielberg film use advanced computer vision to recognize and interpret human facial expressions, aiding in their human-like interactions.\n\nEx Machina (2014)\n\nTech Highlight: Machine vision for robot-human interaction.\nThe humanoid robot, Ava, uses advanced computer vision to understand her surroundings and interact with the human protagonist.\n\nIron Man Series\n\nTech Highlight: Augmented reality (AR) and object tracking.\nTony Stark’s helmet provides a heads-up display (HUD) with real-time data about his surroundings, made possible by advanced computer vision.\n\nEagle Eye (2008)\n\nTech Highlight: Ubiquitous surveillance.\nThe film showcases a superintelligent computer system that uses cameras everywhere to track and manipulate the protagonists.\n\nWALL·E (2008)\n\nTech Highlight: Object recognition and interaction.\nThe titular robot uses computer vision to recognize and categorize trash, and later to interact with other robots and objects.\n\nGhost in the Shell (1995 & 2017)\n\nTech Highlight: Cyborg vision and hacking optics.\nThe protagonist, Major, sees the world with augmented visuals, tracking persons of interest and accessing digital data overlays."
   },
   {
-    "objectID": "posts/Slides/index.html#a-deeper-dive",
-    "href": "posts/Slides/index.html#a-deeper-dive",
-    "title": "AI based Computer Vision",
-    "section": "A Deeper Dive",
-    "text": "A Deeper Dive\nThe Introductory Video was great, but we need to expand on a few core concepts. We assume that most participants in this session are primarily interested in how computer vision might be used in their own research. With that in mind, we plan to expand on the following areas:"
+    "objectID": "posts/Algorthms/Algorithms.html",
+    "href": "posts/Algorthms/Algorithms.html",
+    "title": "Algorithms",
+    "section": "",
+    "text": "You don’t have to program a CV algorithm from scratch. There are many open source libraries and packages that have already been developed. Often, these tools can serve as the basis for your specific applicatio with a small amount of tweaking."
   },
   {
-    "objectID": "posts/Slides/index.html#convolutionarl-neural-networks",
-    "href": "posts/Slides/index.html#convolutionarl-neural-networks",
-    "title": "AI based Computer Vision",
-    "section": "Convolutionarl Neural Networks",
-    "text": "Convolutionarl Neural Networks\nHow do CNNs actually work? What are the good at? What are their limitations?\n\nSegmentation\n\nClassifying pixels (car, road, pedestrian).\nUsed in self-driving vehicles.\n\n\n\nClassification\n\nDetermine what’s in an image.\nDifferentiates between dogs, cats, etc.\n\n\n\nDetection\n\nLocalizes objects in images.\nPlaces bounding boxes around detected objects."
+    "objectID": "posts/Slides/index.html#a-deeper-dive",
+    "href": "posts/Slides/index.html#a-deeper-dive",
+    "title": "A Deeper Dive",
+    "section": "A Deeper Dive",
+    "text": "A Deeper Dive\nThe Introductory Video was great, but we need to expand on a few core concepts.\nWe assume that most participants in this session are primarily interested in how computer vision might be used in their own research. With that in mind, we plan to expand on the following areas:"
+  },
+  {
+    "objectID": "posts/Slides/index.html#convolutional-neural-networks",
+    "href": "posts/Slides/index.html#convolutional-neural-networks",
+    "title": "A Deeper Dive",
+    "section": "Convolutional Neural Networks",
+    "text": "Convolutional Neural Networks\nHow do CNNs actually work? What are the good at? What are their limitations?\n\nSegmentation\n\nClassifying pixels (car, road, pedestrian).\nUsed in self-driving vehicles.\n\n\n\nClassification\n\nDetermine what’s in an image.\nDifferentiates between dogs, cats, etc.\n\n\n\nDetection\n\nLocalizes objects in images.\nPlaces bounding boxes around detected objects."
   },
   {
     "objectID": "posts/Slides/index.html#existing-libraries-and-algorithms",
     "href": "posts/Slides/index.html#existing-libraries-and-algorithms",
-    "title": "AI based Computer Vision",
+    "title": "A Deeper Dive",
     "section": "Existing Libraries and Algorithms",
-    "text": "Existing Libraries and Algorithms\nYou don’t have to program a CV algorthim from scratch. There are many open source libraries and packages that have already been developed. Often, these tools can serve as the basis for your specific applicatio with a small amount of tweaking."
+    "text": "Existing Libraries and Algorithms\nYou don’t have to program a CV algorthm from scratch. There are many open source libraries and packages that have already been developed. Often, these tools can serve as the basis for your specific applicatio with a small amount of tweaking."
   },
   {
     "objectID": "posts/Slides/index.html#training-models",
     "href": "posts/Slides/index.html#training-models",
-    "title": "AI based Computer Vision",
+    "title": "A Deeper Dive",
     "section": "Training Models",
     "text": "Training Models\nWhat types of data are used to train CV models? Where do the data come from?"
   },
   {
     "objectID": "posts/Slides/index.html#hardware-requirements",
     "href": "posts/Slides/index.html#hardware-requirements",
-    "title": "AI based Computer Vision",
+    "title": "A Deeper Dive",
     "section": "Hardware Requirements",
     "text": "Hardware Requirements\nHardware requirements for training and model development.\n\nAccelerating CNNs with GPUs\n\nDifference between CPU and GPU.\nNeural nets are highly parallel, suitable for GPUs.\nGPUs accelerate vision operations, leaving CPUs for other tasks.\n\nHardware requirements for deployment.\nResources at the University of Idaho."
   },
   {
     "objectID": "posts/Slides/index.html#industry-use-cases",
     "href": "posts/Slides/index.html#industry-use-cases",
-    "title": "AI based Computer Vision",
+    "title": "A Deeper Dive",
     "section": "Industry Use Cases",
     "text": "Industry Use Cases\n\nMedicine\n\nSpeedy extraction of vital image data.\nDetection of tumors, artery issues.\n\n\n\nAutonomous Vehicles\n\nWarning systems and autonomous operations.\n\n\n\nIndustrial Uses\n\nQuality control and defect inspection.\nOptical sorting in agriculture."
   },
   {
     "objectID": "posts/Slides/index.html#computer-vision-4u",
     "href": "posts/Slides/index.html#computer-vision-4u",
-    "title": "AI based Computer Vision",
+    "title": "A Deeper Dive",
     "section": "Computer Vision 4U",
     "text": "Computer Vision 4U\nWhat do I need to connect this technology to my research?\n\nUnderstand the nature of your data.\nUnderstand the nature of your task. (Segmentation, Classification, Detection, real time?)\nHow much training is required? How unique is your application?\nWhere will you get the training data?"
+  },
+  {
+    "objectID": "posts/Slides/index.html#sources",
+    "href": "posts/Slides/index.html#sources",
+    "title": "A Deeper Dive",
+    "section": "Sources",
+    "text": "Sources\nhttps://www.nvidia.com/en-us/glossary/data-science/computer-vision/"
   },
   {
     "objectID": "posts/IntroVid/index.html",
@@ -109,14 +130,7 @@
     "href": "posts/IntroVid/index.html#how-computer-vision-works",
     "title": "Video Introduction",
     "section": "How Computer Vision Works",
-    "text": "How Computer Vision Works\n\n\nSources\nhttps://setosa.io/ev/image-kernels/\nhttps://www.altexsoft.com/case-studies/healthcare/altexsoft-builds-lung-diagnostics-tool/\nhttps://www.kaggle.com/datasets/nikhilpandey360/chest-xray-masks-and-labels\nhttps://www.ghsa.org/sites/default/files/2021-05/Pedestrian%20Traffic%20Fatalities%20By%20State%202020%20Preliminary%20Data%20Addendum%205-20-21.pdf\nhttps://www.gerberinjurylaw.com/autonomous-self-driving-vehicle-statistics-2021/\nhttps://www.independent.co.uk/tech/india-police-missing-children-facial-recognition-tech-trace-find-reunite-a8320406.html\nhttps://www.interpol.int/en/How-we-work/Forensics/Facial-Recognition"
-  },
-  {
-    "objectID": "posts/SessionOutline/index.html",
-    "href": "posts/SessionOutline/index.html",
-    "title": "Topic Outline",
-    "section": "",
-    "text": "CV as imagined in Science Fiction.\nIntroductory Video.\n\n\n\n\n\nDefining computer vision: The process by which machines “see” and interpret images.\nKey components: Sensors (cameras), processing units, algorithms.\nDifference between traditional image processing and AI-based computer vision.\n\n\n\n\n\nBrief overview of what neural networks are, focusing on Convolutional Neural Networks (CNNs).\nExplain how deep learning has revolutionized computer vision tasks.\nShow simple visual examples to demonstrate how layers in a CNN can detect patterns and features (like edges, textures, and objects).\n\n\n\n\n\nImage classification: Assigning labels to images.\nObject detection: Identifying and locating objects in images.\nSemantic segmentation: Assigning a label to every pixel in an image, i.e., determining which pixels belong to which object.\nFacial recognition, pose estimation, and more.\nShowcase real-life examples and applications for each capability.\n\n\n\n\n\nLimitations of current AI models: biases, overfitting, adversarial attacks, and data requirements.\nEthical concerns: Privacy, misuse (surveillance, deepfakes), and decision-making accountability.\nEmphasize the importance of understanding these challenges, especially for researchers wanting to incorporate these technologies into their work.\n\n\n\n\n\nEmerging technologies and methods: Transformers in vision, unsupervised learning, and hybrid models.\nPotential applications: Augmented reality, advanced healthcare imaging, and environmental monitoring.\nEncouraging researchers to imagine the applications in their own fields.\n\n\n\n\n\nAllow participants to ask questions and discuss potential applications to their respective research areas.\nProvide resources for further learning.\n\nhttps://www.nvidia.com/en-us/glossary/data-science/computer-vision/"
+    "text": "How Computer Vision Works\n\n\nSources\nKernels\nLung Diagnostics\nChest X Ray\nTraffic Fatalities\nAutonomous Vehicle Stats\nMissing Persons in India\nInterpol"
   },
   {
     "objectID": "posts/History/index.html",
@@ -173,6 +187,13 @@
     "title": "Brief History of Computer Vision",
     "section": "7. 2020s and Beyond:",
     "text": "7. 2020s and Beyond:\n\nBeyond Deep Learning: Exploration of hybrid models and unsupervised learning methods.\nEthical and Fairness Concerns: Growing awareness of the biases in AI models and the ethical implications of computer vision technologies.\nFuture Directions: Transformers in vision, neuro-symbolic approaches, and low-shot or few-shot learning."
+  },
+  {
+    "objectID": "posts/CV4U/CV4U.html",
+    "href": "posts/CV4U/CV4U.html",
+    "title": "CV4U",
+    "section": "",
+    "text": "What do I need to connect this technology to my research?\n\nUnderstand the nature of your data.\nUnderstand the nature of your task. (Segmentation, Classification, Detection, real time?)\nHow much training is required? How unique is your application?\nWhere will you get the training data?"
   },
   {
     "objectID": "posts/Vocabulary/index.html",

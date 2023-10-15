@@ -37,16 +37,16 @@ As you watch the video, consider the following for additional discussion:
 ### Sources
 
 
-https://setosa.io/ev/image-kernels/ 
+[Kernels](https://setosa.io/ev/image-kernels/)
 
-https://www.altexsoft.com/case-studies/healthcare/altexsoft-builds-lung-diagnostics-tool/
+[Lung Diagnostics](https://www.altexsoft.com/case-studies/healthcare/altexsoft-builds-lung-diagnostics-tool/)
 
-https://www.kaggle.com/datasets/nikhilpandey360/chest-xray-masks-and-labels
+[Chest X Ray](https://www.kaggle.com/datasets/nikhilpandey360/chest-xray-masks-and-labels)
 
-https://www.ghsa.org/sites/default/files/2021-05/Pedestrian%20Traffic%20Fatalities%20By%20State%202020%20Preliminary%20Data%20Addendum%205-20-21.pdf
+[Traffic Fatalities](https://www.ghsa.org/sites/default/files/2021-05/Pedestrian%20Traffic%20Fatalities%20By%20State%202020%20Preliminary%20Data%20Addendum%205-20-21.pdf)
 
-https://www.gerberinjurylaw.com/autonomous-self-driving-vehicle-statistics-2021/
+[Autonomous Vehicle Stats](https://www.gerberinjurylaw.com/autonomous-self-driving-vehicle-statistics-2021/)
 
-https://www.independent.co.uk/tech/india-police-missing-children-facial-recognition-tech-trace-find-reunite-a8320406.html
+[Missing Persons in India](https://www.independent.co.uk/tech/india-police-missing-children-facial-recognition-tech-trace-find-reunite-a8320406.html)
 
-https://www.interpol.int/en/How-we-work/Forensics/Facial-Recognition
+[Interpol](https://www.interpol.int/en/How-we-work/Forensics/Facial-Recognition)

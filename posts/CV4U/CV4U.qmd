@@ -1,0 +1,17 @@
+---
+title: "CV4U"
+subtitle: "A brief roadmap describing how you can apply computer vision to your research. "
+author: "Barrie Robison"
+date: "10-6-2023"
+categories: [Hardware, Training, Data, Resources]
+image: Research.png
+---
+
+## Computer Vision 4U
+
+What do I need to connect this technology to my research?
+
+1. Understand the nature of your data.
+2. Understand the nature of your task. (Segmentation, Classification, Detection, real time?)
+3. How much training is required?  How unique is your application?
+4. Where will you get the training data?

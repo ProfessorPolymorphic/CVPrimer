@@ -14,7 +14,7 @@ title-block-banner: false
 
 ## WELCOME!
 
-Welcome to the interactive resources for the University of Idaho's 2023 Symposium on AI Based Computer Vision.  Below you will find a series of posts related to our session on Computer Vision for Beginners.  The posts include the lecture slides as well as various support materials and resources.
+Welcome to the interactive resources for the University of Idaho's 2023 [Symposium on AI Based Computer Vision](https://www.iids.uidaho.edu/registration.php?eid=644afde5a6608).  Below you will find a series of posts related to our session on Computer Vision for Beginners.  The posts include the lecture slides as well as various support materials and resources.
 
 You can use the `sorting` and `filtering` functions to find what you are looking for, as well as the handy list of `categories` along the right hand side.
 

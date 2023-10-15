@@ -4,9 +4,11 @@
     "items": [
       "/posts/IntroVid/index.html",
       "/posts/SciFi/index.html",
+      "/posts/Hardware/Hardware.html",
+      "/posts/Algorthms/Algorithms.html",
       "/posts/Slides/index.html",
-      "/posts/NextSteps/index.html",
-      "/posts/SessionOutline/index.html",
+      "/posts/CV4U/CV4U.html",
+      "/posts/CNNs/index.html",
       "/posts/History/index.html",
       "/posts/Vocabulary/index.html"
     ]

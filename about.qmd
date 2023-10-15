@@ -10,7 +10,15 @@ about:
 
 ---
 
-![](IIDS-Logo-horizontal.png)
+::: {layout-ncol=2}
+
+[![](IIDS-Logo-horizontal.png)](https://www.iids.uidaho.edu)
+
+[![](UI.png)](www.uidaho.edu)
+
+:::
+
+
 
 
 This website was created to support the Computer Vision for Beginners session of the [University of Idaho's Symposium on AI Based Computer Vision](https://www.iids.uidaho.edu/registration.php?eid=644afde5a6608).
